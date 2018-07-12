@@ -1,6 +1,8 @@
 Bruce Tsai - *Software Architect*
 -----
 
+![photo](https://lh3.googleusercontent.com/rTfKnuUOES2Ebd7ajTeod7dGilkVhskfE7O1-Rl-6JtqWDAfeHJ9lv5yPrwzuxYe3g_Pu_OChu_2XVocl9m3iT75AYa6cbqaHl5GrNhirvIGICUZ7I-RaIWWFffr_3kkTQKOWSfCqwbftNU8awvZZk4AL9a9pd00bVoRLMaZvJBoceGgw2dmaeterRnn0kMtwydhBanHkRrxDvuFzEOsyDqK4wHUVUTCBBEupJYE136SePcTn-yiq-Qmr3Hre2PY6jXNiiIPj0oAIoE8XqdC6zT5KxhvX3a-YIfO1MiUOK6GkhVnFuyGAofDFcfh3AEdN1POrttbo-eLzMY2ofBMcAYYdXDB_w6uHCA4nPjxNaicwO_JAdvv9Z3I1J6RD4HBBGenl04DGKh_abLGDE_e9D1oPvgw-F1vZguW10AsxgoQMO8uNzv_rjTIosAOiVWUWwhlQmbdTyY1x_EHnusqXXM60cWDacQIgK227ZWoMH8T1sEaP-hV5ihcTfQfA4xZTcV2vWc7g8GXYs1RJIjtZnqXV6VPoOALmXcYP2yrLqQA7OvhMGm3N3JvR3S-lDXPKhwlqVk3wqy6xN-zNUrb10DlqZsgi10s3ORzyWc=w248-h250-no)
+
 ## Summary
 
 Familiar to design and develop software system, improve development process efficiency and output quality. Have the ability to work independently and leading members to achieve goals.
@@ -9,11 +11,7 @@ Use Java and C# as primary programming language, and use Python / node.js, etc. 
 
 Love learning technology, have a habit of reading technology articles every day, and survey in-depth for things I interested in. Doing my owned side project at leisure time, and push completed projects to Github.
 
-Maintain self-owned services, include web site and mobile apps, working on linux and windows server.
-
-
-
-
+Maintain self-owned services, include Gitlab, SonarQube, ELK and mobile apps etc., working on linux and windows server.
 
 
 ## Work experience
@@ -38,7 +36,7 @@ Plan and manage for team jobs, technical trainings
 
 ##### Tags
 
-`Dingok` | `C#` `.NET Framework` `.Net Core` `WPF` `SQL Server` `Azure` `Docker` `RabbitMQ` `Redis` `CentOS` `Ubuntu` `Gitlab` `git` `SonarQube` `ELK` `CI` `CD` `Protobuf` `System Architect Design`
+`Dingok` | `C#` `.NET Framework` `.Net Core` `WPF` `SQL Server` `Azure` `Docker` `RabbitMQ` `Redis` `CentOS` `Ubuntu` `Gitlab` `git` `SonarQube` `ELK` `CI` `CD` `Protobuf` `System Architect Design` `k8s`
 
 ##### Links
 
@@ -189,6 +187,10 @@ Both of Information Management and Japanese Language and Literature
 
 `jQuery` `Angular` `Vue` `Polymer`
 
+### OS
+
+`Windows` `CentOS` `Ubuntu` `MacOS`
+
 ### Database
 
 `SQL Server` `Oracle` `MySQL` `MariaDB` `PostgreSQL` `Mongodb` `PouchDB` `Couchbase` `Redis`
@@ -201,7 +203,7 @@ Both of Information Management and Japanese Language and Literature
 
 `Git` `SVN` `Team Foundation Server`
 
-### DevOps 
+### DevOps
 
 `Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes`
 
@@ -221,7 +223,7 @@ Both of Information Management and Japanese Language and Literature
 
 `Communication for customers and members` `Skill training for team members` `Project tasks management`
 
-## Links
+## Personal Links
 
 * Blog: https://nanashi07.blogspot.tw/
 * Gitbook: https://www.gitbook.com/@nanashi07
