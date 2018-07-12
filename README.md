@@ -177,9 +177,13 @@ Both of Information Management and Japanese Language and Literature
 
 ## Skills
 
+### Language
+
+`Chinese`, `English`, `Japanese`
+
 ### Programming Language
 
-`Java` `C#` `.Net Framework` `.Net Core` `Javascript` `Kotlin` `Python` `node.js`
+`Java` `C#` `.Net Framework` `.Net Core` `Javascript` `Kotlin` `Python` `node.js` `Go`
 
 ### Front End
 
@@ -197,13 +201,13 @@ Both of Information Management and Japanese Language and Literature
 
 `Git` `SVN` `Team Foundation Server`
 
-### CI 
+### DevOps 
 
-`Jenkins` `TeamCity` `Gitlab-CI`
+`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes`
 
 ### Virtualization
 
-`Virtualbox` `Hyper-V` `Docker`
+`Virtualbox` `Hyper-V` `Docker` `KVM`
 
 ### Mobile 
 
