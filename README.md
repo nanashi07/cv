@@ -1,7 +1,7 @@
 Bruce Tsai - *Software Architect*
 -----
 
-![photo](https://lh3.googleusercontent.com/rTfKnuUOES2Ebd7ajTeod7dGilkVhskfE7O1-Rl-6JtqWDAfeHJ9lv5yPrwzuxYe3g_Pu_OChu_2XVocl9m3iT75AYa6cbqaHl5GrNhirvIGICUZ7I-RaIWWFffr_3kkTQKOWSfCqwbftNU8awvZZk4AL9a9pd00bVoRLMaZvJBoceGgw2dmaeterRnn0kMtwydhBanHkRrxDvuFzEOsyDqK4wHUVUTCBBEupJYE136SePcTn-yiq-Qmr3Hre2PY6jXNiiIPj0oAIoE8XqdC6zT5KxhvX3a-YIfO1MiUOK6GkhVnFuyGAofDFcfh3AEdN1POrttbo-eLzMY2ofBMcAYYdXDB_w6uHCA4nPjxNaicwO_JAdvv9Z3I1J6RD4HBBGenl04DGKh_abLGDE_e9D1oPvgw-F1vZguW10AsxgoQMO8uNzv_rjTIosAOiVWUWwhlQmbdTyY1x_EHnusqXXM60cWDacQIgK227ZWoMH8T1sEaP-hV5ihcTfQfA4xZTcV2vWc7g8GXYs1RJIjtZnqXV6VPoOALmXcYP2yrLqQA7OvhMGm3N3JvR3S-lDXPKhwlqVk3wqy6xN-zNUrb10DlqZsgi10s3ORzyWc=w248-h250-no)
+![photo](https://github.com/nanashi07/cv/blob/master/bruce.jpg)
 
 ## Summary
 
