@@ -7,7 +7,7 @@ Bruce Tsai - *Software Architect*
 
 Familiar to design and develop software system, improve development process efficiency and output quality. Have the ability to work independently and leading members to achieve goals.
 
-Use Java and C# as primary programming language, and use Python / node.js, etc. for development support. Familiar with but not limit to Web-related systems, has experience with frameworks like angular.js, Vue, Polymer and so on.
+Use Java and C# as primary programming language, and use Python / node.js / go, etc. for development support. Familiar with but not limit to Web-related systems, has experience with frameworks like angular.js, Vue, Polymer and so on.
 
 Love learning technology, have a habit of reading technology articles every day, and survey in-depth for things I interested in. Doing my owned side project at leisure time, and push completed projects to Github.
 
