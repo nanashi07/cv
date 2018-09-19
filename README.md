@@ -31,6 +31,8 @@ Ask team members providing automatic unit/integration test, reduce test costs an
 Complete a POC of seat allocation service in one month, with high loading, capability, availability and scalability.
 Introduce docker container service for simplify development environment and deployment.
 Introduce ELK log analysis for monitor and behavior analytics.
+Replace outsourced allocate system with self-designed service, claim refund of paid design fees.
+Introduce Kubernetes for container deployment and managements.
 Plan and manage for team jobs, technical trainings
 ```
 
