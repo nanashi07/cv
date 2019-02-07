@@ -5,36 +5,53 @@ Bruce Tsai - *Software Architect*
 
 ## Summary
 
-Familiar to design and develop software system, improve development process efficiency and output quality. Have the ability to work independently and leading members to achieve goals.
+Familiar to design and develop software system, analysis and performance tunning, improve development process efficiency and producing quality. Understand performance issue and maintainability of development, having ability to intergrate with developing system and various solution, and be able to work independently or leading members to achieve goals.
 
-Use Java and C# as primary programming language, and use Python / node.js / go, etc. for development support. Familiar with but not limit to Web-related systems, has experience with frameworks like angular.js, Vue, Polymer and so on.
+Major use Java and C#, and use Python / node.js / go, etc. as asistance. Familiar to web based systems, experienced with frameworks like Angular, Vue, Polymer, jQuery and so on. Familiar to SQL Server, Oracle and substitute of MySQL database.
+
+Beside programming, familiar to linux system and solutions such as nginx, ELK, SonarQube, docker, Kubernetes and experenced with cloud service of GCP and Azure.
 
 Love learning technology, have a habit of reading technology articles every day, and survey in-depth for things I interested in. Doing my owned side project at leisure time, and push completed projects to Github.
-
-Maintain self-owned services, include Gitlab, SonarQube, ELK and mobile apps etc., working on linux and windows server.
 
 
 ## Work experience
 
+### Engineer @*Silkrode  Technologies Co., Ltd.*
+
+> Oct 2018 - Now
+
+- Be backend contact, coordinate with each team.
+- Define API specifications.
+- Build Gitlab and ensure availability.
+- Build required foundation structure and develop core system.
+- Evaluate and plan architecture of production on GPC, Azure cloud 
+- Verification technical solution, includes:
+  - Performance of the logging library.
+  - Performance of JSON serialization
+  - Svailability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
+  - Asynchronized process performance.
+- Intranet environment planning and construction.
+- Management of cloud environment.
+- CI/CD planning and implementationa
+- Sharing and technical training
+
 ### Leader of Engineers @*Dingok*
 
-> Feb 2018 - Now
+> Feb 2018 - Oct 2018
 
-```
-Plan and architect deployment on azure.
-Introduce CI/CD using gitlab, define and simplify develop flow.
-Introduce code analysis using SonarQube and ensure code quality.
-Introduce Protobuf for serialization between platforms
-Reconstruct monolithic system structure with 4-layer/3-tier design.
-Introduce .NET Core 2.0 for new feature development.
-Ask team members providing automatic unit/integration test, reduce test costs and improve system quality.
-Complete a POC of seat allocation service in one month, with high loading, capability, availability and scalability.
-Introduce docker container service for simplify development environment and deployment.
-Introduce ELK log analysis for monitor and behavior analytics.
-Replace outsourced allocate system with self-designed service, claim refund of paid design fees.
-Introduce Kubernetes for container deployment and managements.
-Plan and manage for team jobs, technical trainings
-```
+- Plan and architect deployment on azure.
+- Introduce CI/CD using gitlab, define and simplify develop flow.
+- Introduce code analysis using SonarQube and ensure code quality.
+- Introduce Protobuf for serialization between platforms
+- Reconstruct monolithic system structure with 4-layer/3-tier design.
+- Introduce .NET Core 2.0 for new feature development.
+- Ask team members providing automatic unit/integration test, reduce test costs and improve system quality.
+- Complete a POC of seat allocation service in one month, with high loading, capability, availability and scalability.
+- Introduce docker container service for simplify development environment and deployment.
+- Introduce ELK log analysis for monitor and behavior analytics.
+- Replace outsourced allocate system with self-designed service, claim refund of paid fees.
+- Introduce Kubernetes for container deployment and managements.
+- Plan and manage for team jobs, technical trainings
 
 ##### Tags
 
@@ -50,12 +67,10 @@ Plan and manage for team jobs, technical trainings
 
 > Jun 2017 - Dec 2017
 
-```
-Develop a sub module of vendor collaborative management system (VCMS). 
-Upgrade Vendor2G from .net 1.1 with crystal report.
-Refactoring usage of source control and create guideline for develop flow.
-Provide CI/Jenkins solution for build and archive binaries.
-```
+- Develop a sub module of vendor collaborative management system (VCMS). 
+- Upgrade Vendor2G from .net 1.1 with crystal report.
+- Refactoring usage of source control and create guideline for develop flow.
+- Provide CI/Jenkins solution for build and archive binaries.
 
 ##### Tags
 
@@ -71,17 +86,15 @@ Provide CI/Jenkins solution for build and archive binaries.
 
 > Dec 2014 - May 2017
 
-```
-Construct architecture for new or exists project, integration with multiple system and data exchange.
-Performance tuning and optimize resource usage strategy.
-Simplify developing flow such as reduce repetitive code snippets and automate repetitive tasks.
-Improve and keep high quality such as provide develop guide, use static code analysis and code review.
-Research and provide solution for project and pre-sales.
-Develop and provide foundation component like aop or code generator.
-Manage project schedule and task assignment, lead members to reach goal.
-Provide training of project related skills for newbie and team members.
-Communicate with customers and earn the trust and recognition.
-```
+- Construct architecture for new or exists project, integration with multiple system and data exchange.
+- Performance tuning and optimize resource usage strategy.
+- Simplify developing flow such as reduce repetitive code snippets and automate repetitive tasks.
+- Improve and keep high quality such as provide develop guide, use static code analysis and code review.
+- Research and provide solution for project and pre-sales.
+- Develop and provide foundation component like aop or code generator.
+- Manage project schedule and task assignment, lead members to reach goal.
+- Provide training of project related skills for newbie and team members.
+- Communicate with customers and earn the trust and recognition.
 
 ##### Tags
 
@@ -98,11 +111,9 @@ Communicate with customers and earn the trust and recognition.
 
 > Nov 2012 - Oct 2014
 
-```
-Customize Umbraco CMS, design function of supplier or distributors access control
-Develop, maintain and manage project systems based on Microsoft office sharepoint
-Supply technical support for other teams
-```
+- Customize Umbraco CMS, design function of supplier or distributors access control
+- Develop, maintain and manage project systems based on Microsoft office sharepoint
+- Supply technical support for other teams
 
 ##### Tags
 
@@ -114,17 +125,15 @@ Supply technical support for other teams
 
 > Feb 2012 - Oct 2012
 
-```
-Develop AI(Ability International) order system based on web application and migrate old one from lotus notes
-Develop CRM, attendance, repair service, customer service for departments of AI
-Maintain EIP of GrandTech and AI
-Network and servers maintenance
-MIS supporting of GI (GrandTech Information) and  TI (TopTeam Information)
-Develop and maintain ETL and reports from SAP and EIP, performance tuning for execution.
-Routine jobs and maintenance of SAP
-Source control reconstruction
-Daily jobs of MIS department
-```
+- Develop AI(Ability International) order system based on web application and migrate old one from lotus notes
+- Develop CRM, attendance, repair service, customer service for departments of AI
+- Maintain EIP of GrandTech and AI
+- Network and servers maintenance
+- MIS supporting of GI (GrandTech Information) and  TI (TopTeam Information)
+- Develop and maintain ETL and reports from SAP and EIP, performance tuning for execution.
+- Routine jobs and maintenance of SAP
+- Source control reconstruction
+- Daily jobs of MIS department
 
 ------------------------------------------------------------------------
 
@@ -132,15 +141,13 @@ Daily jobs of MIS department
 
 > May 2010 - Feb 2012
 
-```
-Develop MES for manufacture flow
-Develop workflow for departments using GP
-Support and maintain Tiptop
-Maintenance of web portal
-Develop functional feature for departments
-Support general application process of RD
-Support network and hardware maintenance
-```
+- Develop MES for manufacture flow
+- Develop workflow for departments using GP
+- Support and maintain Tiptop
+- Maintenance of web portal
+- Develop functional feature for departments
+- Support general application process of RD
+- Support network and hardware maintenance
 
 ------------------------------------------------------------------------
 
@@ -148,12 +155,10 @@ Support network and hardware maintenance
 
 > Jul 2008 - May 2010
 
-```
-Develop and maintain eGov portal
-Develop and maintain eGov modules and services
-Develop and maintain data exchange interface and function
-Customize Worksite MP as KMS
-```
+- Develop and maintain eGov portal
+- Develop and maintain eGov modules and services
+- Develop and maintain data exchange interface and function
+- Customize Worksite MP as KMS
 
 ------------------------------------------------------------------------
 
@@ -161,10 +166,8 @@ Customize Worksite MP as KMS
 
 > Feb 2007 - Jun 2008
 
-```
-Maintenance customer's system. Develop online shopping site and enterprise portal.
-Mainly use JSP/Servlet, and MySQL, SQL Server database
-```
+- Maintenance customer's system. Develop online shopping site and enterprise portal.
+- Mainly use JSP/Servlet, and MySQL, SQL Server database
 
 ## Education
 
