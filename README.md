@@ -5,11 +5,11 @@ Bruce Tsai - *Software Architect*
 
 ## Summary
 
-Familiar to design and develop software system, analysis and performance tunning, improve development process efficiency and producing quality. Understand performance issue and maintainability of development, having ability to intergrate with developing system and various solution, and be able to work independently or leading members to achieve goals.
+Familiar to design and develop software system, analysis and performance tuning, improve development process efficiency and producing quality. Understand performance issue and maintainability of development, having ability to integrate with developing system and various solution, and be able to work independently or leading members to achieve goals.
 
-Major use Java and C#, and use Python / node.js / go, etc. as asistance. Familiar to web based systems, experienced with frameworks like Angular, Vue, Polymer, jQuery and so on. Familiar to SQL Server, Oracle and substitute of MySQL database.
+Major use Java and C#, and use Python / node.js / go, etc. as assistance. Familiar to web based systems, experienced with frameworks like Angular, Vue, Polymer, jQuery and so on. Familiar to SQL Server, Oracle and substitute of MySQL database.
 
-Beside programming, familiar to linux system and solutions such as nginx, ELK, SonarQube, docker, Kubernetes and experenced with cloud service of GCP and Azure.
+Beside programming, familiar to linux system and solutions such as nginx, ELK, SonarQube, docker, Kubernetes and experienced with cloud service of GCP and Azure.
 
 Love learning technology, have a habit of reading technology articles every day, and survey in-depth for things I interested in. Doing my owned side project at leisure time, and push completed projects to Github.
 
@@ -28,11 +28,11 @@ Love learning technology, have a habit of reading technology articles every day,
 - Verification technical solution, includes:
   - Performance of the logging library.
   - Performance of JSON serialization
-  - Svailability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
+  - Availability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
   - Asynchronized process performance.
 - Intranet environment planning and construction.
 - Management of cloud environment.
-- CI/CD planning and implementationa
+- CI/CD planning and implementation
 - Sharing and technical training
 
 ### Leader of Engineers @*Dingok*
