@@ -5,11 +5,11 @@ Bruce Tsai - *軟體架構師*
 
 ## 概要
 
-擅長系統規劃與開發，分析並提升系統效能，簡化開發流程，提升效率與產出品質。深入理解開發程式的效能與可維護性，具有統合程式開發與各類解決方案能力，並且能夠獨立作業或帶領成員完成目標。
+擅長系統規劃與開發，分析並提升系統效能，簡化開發流程，提升效率與產出品質。深入理解開發程式的效能與可維護性，具有統合程式開發與各類解決方案能力，並且能夠獨立作業或帶領成員完成目標。
 
-主要使用語言為 Java 及 C#，並以 Python / node.js / go 等為輔助處理事務。熟悉但不限定於 Web 相關的系統，前端語言多數使用 Angularjs，Vue，Polymer，jQuery 等。了解並熟悉包含 SQL Server、Oracle、MySQL 同質資料庫。
+主要使用語言為 Java 及 C#，並以 Python / node.js / go 等為輔助處理事務。熟悉但不限定於 Web 相關的系統，前端語言多數使用 Angularjs，Vue，Polymer，jQuery 等。了解並熟悉包含 SQL Server、Oracle、MySQL 同質資料庫。
 
-除開發相關外，熟悉 linux、nginx、ELK、SonarQube、docker、Kubernetes 等解決方案，並在 Azure 與 GCP 上有相當的實務經驗。
+除開發相關外，熟悉 linux、nginx、ELK、SonarQube、docker、Kubernetes 等解決方案，並在 Azure 與 GCP 上有相當的實務經驗。
 
 熱愛學習技術，每天都會維持著閱讀各類文章的習慣，並對有興趣的內容進行較深入的了解。閒暇時間喜歡做自己的 side project，並將較完整的項目放至 Github 上。
 
@@ -24,7 +24,7 @@ Bruce Tsai - *軟體架構師*
 - 制定 API 規格文件
 - 建置 Gitlab 環境並保證其可用性
 - 建置專案基礎功能與開發核心系統功能
-- 評估並規劃 GPC、Azure 上的生產環境架構
+- 評估並規劃 GPC、Azure 上的生產環境架構
 - 驗證技術方案與執行效能，如：
   - 驗證日誌套件的效能
   - JSON 序列化效能
@@ -33,7 +33,7 @@ Bruce Tsai - *軟體架構師*
 - 地端環境規劃建置
 - 雲端環境管理規劃
 - CI/CD 規劃建置
-- 經驗分享與技術教學
+- 經驗分享與技術教學
 
 ##### Tags
 
