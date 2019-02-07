@@ -26,10 +26,10 @@ Love learning technology, have a habit of reading technology articles every day,
 - Build required foundation structure and develop core system.
 - Evaluate and plan architecture of production on GPC, Azure cloud 
 - Verification technical solution, includes:
-  - Performance of the logging library.
-  - Performance of JSON serialization
-  - Availability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
-  - Asynchronized process performance.
+  * Performance of the logging library.
+  * Performance of JSON serialization
+  * Availability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
+  * Asynchronized process performance.
 - Intranet environment planning and construction.
 - Management of cloud environment.
 - CI/CD planning and implementation
