@@ -25,6 +25,7 @@ Love learning technology, have a habit of reading technology articles every day,
 - Build Gitlab and ensure availability.
 - Build required foundation structure and develop core system.
 - Evaluate and plan architecture of production on GPC, Azure cloud 
+- Build production with Kubernetes(GKE), helm and other related solutions
 - Verification technical solution, includes:
   * Performance of the logging library.
   * Performance of JSON serialization
