@@ -36,6 +36,10 @@ Love learning technology, have a habit of reading technology articles every day,
 - CI/CD planning and implementation
 - Sharing and technical training
 
+##### Tags
+
+`Trade` `Profit` | `C#` `.Net core` `Percona` `Docker` `Kubernetes` `Redis` `RabbitQM` `CentOS` `Gitlab-CI` `SonarQube` `Graylog` `MongoDB` `GCP` `Azure` `Architect` `Helm` 
+
 ### Leader of Engineers @*Dingok*
 
 > Feb 2018 - Oct 2018

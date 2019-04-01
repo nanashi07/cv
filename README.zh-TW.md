@@ -38,7 +38,7 @@ Bruce Tsai - *軟體架構師*
 
 ##### Tags
 
-`.Net Core` `Redis` `RabbitMQ` `MySQL` `Percona` `Galera` `Azure` `GCP` `docker` `Kubernetes` `Gitlab` `Gitlab CI` `SonarQube` `nginx` `MongoDB`
+`Trade` `Profit` | `C#` `.Net core` `Percona` `Docker` `Kubernetes` `Redis` `RabbitQM` `CentOS` `Gitlab-CI` `SonarQube` `Graylog` `MongoDB` `GCP` `Azure` `Architect` `Helm` 
 
 ### 工程部組長 @*一訂科技*
 
