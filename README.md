@@ -24,13 +24,14 @@ Love learning technology, have a habit of reading technology articles every day,
 - Define API specifications.
 - Build Gitlab and ensure availability.
 - Build required foundation structure and develop core system.
-- Evaluate and plan architecture of production on GPC, Azure cloud 
+- Evaluate and plan architecture of production on GPC, Azure cloud
 - Build production with Kubernetes(GKE), helm and other related solutions
-- Verification technical solution, includes:
-  * Performance of the logging library.
-  * Performance of JSON serialization
+- Verification of technical solution, includes:
+  * Performance of the logging library (Nlog / Serilog / Log4net)
+  * Redis client / server solution (StackExchange / ServiceStack / CsRedis / Cluster / Sentinel / Codis)
+  * Performance of JSON serialization  (Newtonsoft / Jil / Utf8Json)
   * Availability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
-  * Asynchronized process performance.
+  * Asynchronized process performance. (Queue / HangFire / Polly)
 - Intranet environment planning and construction.
 - Management of cloud environment.
 - CI/CD planning and implementation
@@ -38,7 +39,7 @@ Love learning technology, have a habit of reading technology articles every day,
 
 ##### Tags
 
-`Trade` `Profit` | `C#` `.Net core` `Percona` `Docker` `Kubernetes` `Redis` `RabbitQM` `CentOS` `Gitlab-CI` `SonarQube` `Graylog` `MongoDB` `GCP` `Azure` `Architect` `Helm` 
+`Trade` `Profit` | `C#` `.Net Core` `Percona` `Docker` `Kubernetes` `Redis` `RabbitMQ` `CentOS` `Gitlab-CI` `SonarQube` `Graylog` `ELK` `MongoDB` `GCP` `Azure` `Architect` `Helm` `HAProxy`
 
 ### Leader of Engineers @*Dingok*
 
