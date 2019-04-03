@@ -41,6 +41,8 @@ Love learning technology, have a habit of reading technology articles every day,
 
 `Trade` `Profit` | `C#` `.Net Core` `Percona` `Docker` `Kubernetes` `Redis` `RabbitMQ` `CentOS` `Gitlab-CI` `SonarQube` `Graylog` `ELK` `MongoDB` `GCP` `Azure` `Architect` `Helm` `HAProxy`
 
+------------------------------------------------------------------------
+
 ### Leader of Engineers @*Dingok*
 
 > Feb 2018 - Oct 2018
