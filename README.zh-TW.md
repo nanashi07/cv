@@ -7,7 +7,7 @@ Bruce Tsai - *軟體架構師*
 
 擅長系統規劃與開發，分析並提升系統效能，簡化開發流程，提升效率與產出品質。深入理解開發程式的效能與可維護性，具有統合程式開發與各類解決方案能力，並且能夠獨立作業或帶領成員完成目標。
 
-主要使用語言為 Java 及 C#，並以 Python / node.js / go 等為輔助處理事務。熟悉但不限定於 Web 相關的系統，前端語言多數使用 Angularjs，Vue，Polymer，jQuery 等。了解並熟悉包含 SQL Server、Oracle、MySQL 同質資料庫。
+主要使用語言為 Java 及 C#，並以 Python / node.js / go 等為輔助處理事務。熟悉但不限定於 Web 相關的系統，前端語言多數使用 Angular，Vue，Polymer，jQuery 等。了解並熟悉包含 SQL Server、Oracle、MySQL 同質資料庫。
 
 除開發相關外，熟悉 linux、nginx、ELK、SonarQube、docker、Kubernetes 等解決方案，並在 Azure 與 GCP 上有相當的實務經驗。
 
