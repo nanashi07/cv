@@ -41,6 +41,8 @@ Bruce Tsai - *軟體架構師*
 
 `Trade` `Profit` | `C#` `.Net Core` `Percona` `Docker` `Kubernetes` `Redis` `RabbitMQ` `CentOS` `Gitlab-CI` `SonarQube` `Graylog` `ELK` `MongoDB` `GCP` `Azure` `Architect` `Helm` `HAProxy`
 
+------------------------------------------------------------------------
+
 ### 工程部組長 @*一訂科技*
 
 > 二月 2018 - 十月 2018
