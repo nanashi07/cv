@@ -1,5 +1,4 @@
-Bruce Tsai - *Software Architect*
------
+# Bruce Tsai - *Software Architect*
 
 ![photo](https://github.com/nanashi07/cv/blob/master/bruce.jpg)
 
@@ -218,7 +217,7 @@ Both of Information Management and Japanese Language and Literature
 
 ### DevOps
 
-`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes`
+`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes` `Istio`
 
 ### Virtualization
 
