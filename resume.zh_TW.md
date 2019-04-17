@@ -1,4 +1,4 @@
-# Bruce Tsai / 蔡奇璋
+# Bruce Tsai
 
 ## 技術能力
 
