@@ -1,5 +1,4 @@
-Bruce Tsai - *軟體架構師*
------
+# Bruce Tsai - *軟體架構師*
 
 ![photo](https://github.com/nanashi07/cv/blob/master/bruce.jpg)
 
@@ -216,7 +215,7 @@ Bruce Tsai - *軟體架構師*
 
 ### DevOps 
 
-`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes`
+`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes` `Istio`
 
 ### 虛擬化
 
