@@ -22,7 +22,7 @@ Love learning technology, have a habit of reading technology articles every day,
 - Be backend contact, coordinate with each team.
 - Define API specifications.
 - Build Gitlab and ensure availability.
-- Build required foundation structure and develop core system.
+- Build required foundation structure and develop core system using .net core.
 - Evaluate and plan architecture of production on GPC, Azure cloud
 - Build production with Kubernetes(GKE), helm and other related solutions
 - Verification of technical solution, includes:
