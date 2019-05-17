@@ -4,7 +4,7 @@
 
 熟悉系統開發（以 .net 與 Java 為主），系統架構設計，整合各類解決方案，需求分析，系統環境建置，雲端環境建置，效能改善，內部技術分享等
 
-### 關鍵字
+### 相關技術
 
 - `.net`, `Java`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
 -  `Angular`, `Vue`, `jQuery`, `Polymer`
