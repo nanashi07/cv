@@ -250,11 +250,11 @@ Both of Information Management and Japanese Language and Literature
 
 ### Database
 
-`SQL Server` `Oracle` `MySQL` `MariaDB` `PostgreSQL` `Mongodb` `PouchDB` `Couchbase` `Redis`
+`SQL Server` `Oracle` `MySQL` `MariaDB` `PostgreSQL` `Mongodb` `PouchDB` `Couchbase` `Redis` `Cetus`
 
 ### Message Queue
 
-`RabbitMQ` `Kafka`
+`RabbitMQ` `Kafka` `RocketMQ`
 
 ### SCM 
 
@@ -262,7 +262,7 @@ Both of Information Management and Japanese Language and Literature
 
 ### DevOps
 
-`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes` `Istio`
+`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes` `Istio` `Argo workflow`
 
 ### Virtualization
 
