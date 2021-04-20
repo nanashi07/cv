@@ -9,18 +9,19 @@ Familiar with development (major of .net & Java), system architect, solution int
 - `.net`, `Java`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
 -  `Angular`, `Vue`, `jQuery`, `Polymer`
 - `Linux`, `shell script`
-- `Azure`, `GCP`
-- `SQL-Server`, `Oracle`, `MySQL`, `PostgreSQL`
+- `Azure`, `GCP`, `AWS`
+- `SQL-Server`, `Oracle`, `MySQL`, `PostgreSQL`, `Cetus`
 - `MongoDB`, `Redis`
-- `RabbitMQ`, `Kafka`
+- `RabbitMQ`, `Kafka`, `RocketMQ`
 - `Git`, `Subversion`
-- `Gitlab-CI`, `Jenkins`, `SonarQube`
+- `Gitlab-CI`, `Jenkins`, `SonarQube`, `drone`, `Argo workflow`
 - `Docker`, `Kubernetes`
 - `Android`
 
 ## Work experience
 
-- Engineer @**Silkrode  Technologies Co., Ltd.** from *Oct 2018 - Now*
+- Principal Engineer @**OpenNet** from *Jul 2019 - NOW*
+- Engineer @**Silkrode  Technologies Co., Ltd.** from *Oct 2018 - Jul 2019*
 - Leader of Engineers @**Dingok** from *Feb 2018 - Oct 2018*
 - Engineer @**President Information Corporation** from *Jun 2017 - Dec 2017*
 - Senior Technical Consultant @**HY-Tech** from *Dec 2014 - May 2017*
