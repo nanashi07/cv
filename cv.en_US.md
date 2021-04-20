@@ -15,9 +15,54 @@ Love learning technology, have a habit of reading technology articles every day,
 
 ## Work experience
 
+### Principal @*OpenNet*
+
+> Jul 2019 - NOW
+
+- Fix issue of third-party library, add and modify library for system requirement
+- Migrate RabbitMQ to RocketMQ and update related code base
+- Configure and implement Redis R/W split, balanced production loading
+- Implemented tax logic, include withholding tax and excise tax
+- Kickoff Sporty-Fantasy
+  - System planning and architecture design
+  - Multi-countries, multi-users contest game
+  - Communicate and integrate with third-party API
+  - 80% of total code implementation
+- Split payment module into user endpoint and third-party endpoint
+- Optimize MTS process with multi-thread in parallel, keeps the flow in synchronized to asynchronized then back to synchronized
+- Implement authentication of KYC, ensure the user experience of deposit/withdraw and prevent the fraud
+- Implement new promotion (DoB Promotion)
+- Implement finance flow, add new mechanism of deposit/withdraw in deep logic flow (PAC Account)
+- Implement user transfer feature, allow authenticated user to transfer to each other (P2P transfer)
+- Kickoff Sporty.com
+  - System planning and architecture design, totally 7 modules
+  - As a sports media app, include news, video, chat, share and social
+  - Communicate and integrate with third-party API
+  - 75% of total code implementation
+- Solve performance issue and optimize huge amount of settlement messages at the same time
+- Solve cache not exactly recycle in CMS GC, tuning JVM arguments and migrate to G1 GC
+- Design log analysis system for app and web/wap
+- SQL performance tuning for all modules
+- Assistance of database migration, from cetus to AWS RDS, check and optimize required query
+- Assistance of new country environment deploy, load test environment deploy
+- Production issue tracking , find the issue in the first place and fix immediately before user affected
+- Production outage handling
+- Upgrade modules from Spring Boot 1.6 to 2.3
+- Configure resource in Kubernetes, analysis issue and optimize
+  - Optimize resource usage
+  - Plan HPA and replicas scaling strategy
+- Log system integration solution (cloudwatch, rsyslog, kafka)
+- Introduce technologies, such as SonarQube、Webflux、gRPC、drone、KEDA
+
+##### Tags
+
+`SportyBet` `Fantasy` `Sporty.com` | `Java`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Reids`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger(opentracing)`, `Prometheus`
+
+------------------------------------------------------------------------
+
 ### Engineer @*Silkrode  Technologies Co., Ltd.*
 
-> Oct 2018 - Now
+> Oct 2018 - Jul 2019
 
 - Be backend contact, coordinate with each team.
 - Define API specifications.
