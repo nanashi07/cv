@@ -15,9 +15,54 @@
 
 ## 經歷
 
+### 技術總監 @*OpenNet*
+
+> 七月 2019 - NOW
+
+- 修正第三方函式庫問題，加入或修改特定函式庫以符合系統需求
+- 遷移 RabbitMQ 至 RocketMQ，修改相關的程式邏輯
+- 設定並實作 Redis 讀寫分離機制，平衡生產環境的負載
+- 實作稅務處理，包含預扣稅與消費稅
+- 啟動 Sporty Fantasy 專案
+  - 系統整體規劃與設計
+  - 多語系、多幣值、多人競合系統
+  - 第三方 API 溝通與串接
+  - 80% 的程式碼實作
+- 分離金流模組為用戶端入口與第三方入口
+- 優化 MTS 處理流程，以多執行緒並行處理多個請求，且不影響同步轉非同步後彙整回同止的流程
+- 實作 KYC 驗證流程，在保證儲值與提款的流暢體驗下防止詐騙與盗號
+- 實作新的促銷功能 (DoB Promotion)
+- 實作帳務流程，控制儲值/提款的底層邏輯 (PAC Account)
+- 實作用戶轉帳功能，允許通過驗證的用戶互相轉帳 (P2P transfer)
+- 啟動 Sporty.com 專案
+  - 系統整體規劃與設計，共 7 個模組
+  - 定位為運動類型多媒體，包含新聞、影片、聊天、分享、社交等功能
+  - 第三方 API 溝通與串接
+  - 75% 的程式碼實作
+- 解決並優化系統處理大量結算時的負載問題（settlement)
+- 解決 cache 未正確回收產生的 CMS full GC 問題（LoadingCache + parallemStream)，並重整參數使用 G1 GC
+- 設計日誌收集分析系統（analytics）
+- 各模組 SQL 效能調校
+- 資料庫遷移，由 cetus 遷移至 AWS RDS，調整需要修改的查詢語句
+- 協助建立新國家部署，壓測環境部署
+- 系統異常追蹤，主動發現問題並在造成影響前修復或降低影響
+- Production 災害處理應變
+- 升級各模組 Spring Boot 1.6 至 2.3
+- 調整 Kubernetes 各類配置，問題分析與優化
+  - 佈署資源配置
+  - HPA 及 replicas 擴展策略
+- Log system 整合方案 (cloudwatch, rsyslog, kafka)
+- 引入各類技術，包含 SonarQube、Webflux、gRPC、drone、KEDA
+
+##### Tags
+
+`SportyBet` `Fantasy` `Sporty.com` | `Java`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Reids`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger(opentracing)`, `Prometheus`, 
+
+------------------------------------------------------------------------
+
 ### 工程師 @*思華科技*
 
-> 十月 2018 - Now
+> 十月 2018 - 七月 2019
 
 - 擔任 backend 窗口，與各 team 溝通協調
 - 制定 API 規格文件
