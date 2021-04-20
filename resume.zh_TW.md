@@ -9,18 +9,19 @@
 - `.net`, `Java`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
 -  `Angular`, `Vue`, `jQuery`, `Polymer`
 - `Linux`, `shell script`
-- `Azure`, `GCP`
-- `SQL-Server`, `Oracle`, `MySQL`, `PostgreSQL`
+- `Azure`, `GCP`, `AWS`
+- `SQL-Server`, `Oracle`, `MySQL`, `PostgreSQL`, `Cetus`
 - `MongoDB`, `Redis`
-- `RabbitMQ`, `Kafka`
+- `RabbitMQ`, `Kafka`, `RocketMQ`
 - `Git`, `Subversion`
-- `Gitlab-CI`, `Jenkins`, `SonarQube`
+- `Gitlab-CI`, `Jenkins`, `SonarQube`, `drone`, `Argo workflow`
 - `Docker`, `Kubernetes`
 - `Android`
 
 ## 經歷
 
-- 工程師 @**思華科技** from *十月 2018 - Now*
+- 技術總監 @**OpenNet** from *七月 2019 - NOW*
+- 工程師 @**思華科技** from *十月 2018 - 七月 2019*
 - 工程部組長 @**一訂科技** from *二月 2018 - 十月 2018*
 - 軟體工程師 @**統一資訊** from *六月 2017 - 十二月 2017*
 - 資深技術顧問 @**鴻揚科技股份有限公司** from *十二月 2014 - 五月 2017*
