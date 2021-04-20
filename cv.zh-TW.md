@@ -248,11 +248,11 @@
 
 ### 資料庫
 
-`SQL Server` `Oracle` `MySQL` `MariaDB` `PostgreSQL` `Mongodb` `PouchDB` `Couchbase` `Redis`
+`SQL Server` `Oracle` `MySQL` `MariaDB` `PostgreSQL` `Mongodb` `PouchDB` `Couchbase` `Redis` `Cetus`
 
 ### Message Queue
 
-`RabbitMQ` `Kafka`
+`RabbitMQ` `Kafka` `RocketMQ`
 
 ### SCM 
 
@@ -260,7 +260,7 @@
 
 ### DevOps 
 
-`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes` `Istio`
+`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes` `Istio` `Argo workflow`
 
 ### 虛擬化
 
