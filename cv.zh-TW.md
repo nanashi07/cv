@@ -8,7 +8,7 @@
 
 主要使用語言為 Java 及 C#，並以 Python / node.js / go 等為輔助處理事務。熟悉但不限定於 Web 相關的系統，前端語言多數使用 Angular，Vue，Polymer，jQuery 等。了解並熟悉包含 SQL Server、Oracle、MySQL 同質資料庫。
 
-除開發相關外，熟悉 linux、nginx、ELK、SonarQube、docker、Kubernetes 等解決方案，並在 Azure 與 GCP 上有相當的實務經驗。
+除開發相關外，熟悉 linux、nginx、ELK、SonarQube、docker、Kubernetes 等解決方案，並在 Azure / GCP / AWS 上有相當的實務經驗。
 
 熱愛學習技術，每天都會維持著閱讀各類文章的習慣，並對有興趣的內容進行較深入的了解。閒暇時間喜歡做自己的 side project，並將較完整的項目放至 Github 上。
 
@@ -19,44 +19,72 @@
 
 > 七月 2019 - NOW
 
-- 修正第三方函式庫問題，加入或修改特定函式庫以符合系統需求
-- 遷移 RabbitMQ 至 RocketMQ，修改相關的程式邏輯
-- 設定並實作 Redis 讀寫分離機制，平衡生產環境的負載
-- 實作稅務處理，包含預扣稅與消費稅
+#### Games
+- 遷移 Sporty Soccer  RabbitMQ 至 RocketMQ
 - 啟動 Sporty Fantasy 專案
   - 系統整體規劃與設計
-  - 多語系、多幣值、多人競合系統
+  - 多國、多人競合遊戲
   - 第三方 API 溝通與串接
-  - 80% 的程式碼實作
-- 分離金流模組為用戶端入口與第三方入口
-- 優化 MTS 處理流程，以多執行緒並行處理多個請求，且不影響同步轉非同步後彙整回同止的流程
-- 實作 KYC 驗證流程，在保證儲值與提款的流暢體驗下防止詐騙與盗號
-- 實作新的促銷功能 (DoB Promotion)
-- 實作帳務流程，控制儲值/提款的底層邏輯 (PAC Account)
-- 實作用戶轉帳功能，允許通過驗證的用戶互相轉帳 (P2P transfer)
+  - 80% 的後端程式碼實作
+#### Sporty.com
 - 啟動 Sporty.com 專案
   - 系統整體規劃與設計，共 7 個模組
   - 定位為運動類型多媒體，包含新聞、影片、聊天、分享、社交等功能
   - 第三方 API 溝通與串接
-  - 75% 的程式碼實作
-- 解決並優化系統處理大量結算時的負載問題（settlement)
-- 解決 cache 未正確回收產生的 CMS full GC 問題（LoadingCache + parallemStream)，並重整參數使用 G1 GC
-- 設計日誌收集分析系統（analytics）
-- 各模組 SQL 效能調校
-- 資料庫遷移，由 cetus 遷移至 AWS RDS，調整需要修改的查詢語句
-- 協助建立新國家部署，壓測環境部署
+  - 75% 的後端程式碼實作
+#### SportyBet
+- 功能實作
+  - 修正第三方函式庫臭蟲。覆寫第三方函式庫功能。
+  - 實作 Redis 讀寫分離機制，平衡生產環境的負載。遷移高負載的 Redis 為叢集模式
+  - 實作稅務處理，包含預扣稅與消費稅
+  - 優化 MTS 處理流程，以多執行緒並行提高效能，並整合進同步轉非同步訂單流程
+  - 實作 KYC 驗證流程，在保證儲值與提款的流暢體驗下防止詐騙與盗號
+  - 實作 DoB 驗證與 promotion，以提供後續客戶 KYC 驗證資訊
+  - 實作帳務流程，控制儲值/提款的底層邏輯 (PAC Account)
+  - 實作用戶轉帳功能，允許通過驗證的用戶互相轉帳 (P2P transfer)
+  - 設計日誌收集分析系統（analytics），供行動裝置回報分析
+  - 設計並建構後端各模組與 CMS 系統整合
+  - 修正 SonarQube 分析的 bug 與漏洞
+- 效能優化
+  - 解決並優化系統處理大量結算時的負載問題（settlement)
+  - 優化比賽結算，分流不同優先級的資料，降低資料庫面的負擔，並減少不必要的冗餘運算
+  - 各模組 SQL 效能調校，優化 DBA 監控提供的效能問題
+  - 優化賽事資訊推送功能，減少延遲並提升推送服務的可擴展性
+  - 優化各模組的 cache 使用，建立對應的指標以觀察 cache 的效能
+  - 強化 Jaeger APM 的追蹤內容，改善效能追蹤時可提供的資訊
+  - 設計多項監控指標，用以了解系統狀態，並快速反應異常
+  - 解決程式造成的 GC 問題，調校 JVM 並改用 G1 GC 替代原本的 Parallel GC
+  - 量測並分析 order 效能，細化指標後依據指標優化 order
+  - 分析 SMS 模組 API 效能，優化改進，(Collection contains, parallel issue)
+  - 分析 OOM、高 cpu、網路問題原因，並針對問題改善
+  - 提升測試效能，包含啟動速度，環境執行速度（mysql）
+- 系統架構
+  - 資料庫遷移，由 cetus 遷移至 AWS RDS，調整遷移時前後的查詢問題
+  - 分離金流模組入口，拆分為用戶端入口與第三方入口，避免相互影響
+  - 協助建立新國家部署，排除建置問題
+  - 升級各模組 Spring Boot 1.6 至 2.3
+  - 優化 Kubernetes 各類配置，並分析 kubernetes 的問題
+  - Log system 整合方案 (cloudwatch, rsyslog, kafka, loki)
+  - 重建壓測方案，使用 gatling 與 arg workflow
+  - 持續重構各模組程式碼
+  - 優化各模組的 maven dependency
+  - 分離訂單模組，避免因流量或 bug 造成訂單問題。
+#### SportyBet - International
+- 開發以 email 為基礎的註冊流程，支援多國家，多語言，多幣別會員
+- 設計彈性動態的 KYC 功能
+#### Other
 - 系統異常追蹤，主動發現問題並在造成影響前修復或降低影響
-- Production 災害處理應變
-- 升級各模組 Spring Boot 1.6 至 2.3
-- 調整 Kubernetes 各類配置，問題分析與優化
-  - 佈署資源配置
-  - HPA 及 replicas 擴展策略
-- Log system 整合方案 (cloudwatch, rsyslog, kafka)
-- 引入各類技術，包含 SonarQube、Webflux、gRPC、drone、KEDA
+- 線上環境緊急災難應變
+- 引入多項技術，包含 SonarQube、Webflux、gRPC、drone、KEDA, argo workflow, gatling
+#### Management
+- 自 2021 年 1 月升為 principal engineer
+- 自 2021 年 5 月擔任 backend team leader 
+- 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初流量成長 3 倍（2021 年末）
+- 管理後端開發人員，引導同仁職涯發展，協助解決同仁開發困難
 
 ##### Tags
 
-`SportyBet` `Fantasy` `Sporty.com` | `Java`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Reids`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger(opentracing)`, `Prometheus`, 
+`SportyBet` `Fantasy` `Sporty.com` `SportyBet-International` | `Java 8`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Redis`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger`, `Prometheus`
 
 ------------------------------------------------------------------------
 
@@ -281,8 +309,6 @@
 ## 個人活動
 
 * Blog: https://nanashi07.blogspot.tw/
-* Gitbook: https://www.gitbook.com/@nanashi07
 * Github: https://github.com/prhythm
 * Web components: https://www.webcomponents.org/author/Prhythm
 * Chrome extensions: https://goo.gl/J62Khh
-* App: https://play.google.com/store/apps/details?id=com.prhythm.billtracker
