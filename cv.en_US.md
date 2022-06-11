@@ -15,44 +15,72 @@ Love learning technology, have a habit of reading technology articles every day,
 
 ## Work experience
 
-### Principal @*OpenNet*
+### Principal engineer @*OpenNet*
 
 > Jul 2019 - NOW
 
-- Fix issue of third-party library, add and modify library for system requirement
-- Migrate RabbitMQ to RocketMQ and update related code base
-- Configure and implement Redis R/W split, balanced production loading
-- Implemented tax logic, include withholding tax and excise tax
+#### Games
+- Migrate RabbitMQ to RocketMQ for Sporty Soccer
 - Kickoff Sporty-Fantasy
   - System planning and architecture design
   - Multi-countries, multi-users contest game
   - Communicate and integrate with third-party API
   - 80% of total code implementation
-- Split payment module into user endpoint and third-party endpoint
-- Optimize MTS process with multi-thread in parallel, keeps the flow in synchronized to asynchronized then back to synchronized
-- Implement authentication of KYC, ensure the user experience of deposit/withdraw and prevent the fraud
-- Implement new promotion (DoB Promotion)
-- Implement finance flow, add new mechanism of deposit/withdraw in deep logic flow (PAC Account)
-- Implement user transfer feature, allow authenticated user to transfer to each other (P2P transfer)
+#### Sporty.com
 - Kickoff Sporty.com
   - System planning and architecture design, totally 7 modules
   - As a sports media app, include news, video, chat, share and social
   - Communicate and integrate with third-party API
   - 75% of total code implementation
-- Solve performance issue and optimize huge amount of settlement messages at the same time
-- Solve cache not exactly recycle in CMS GC, tuning JVM arguments and migrate to G1 GC
-- Design log analysis system for app and web/wap
-- SQL performance tuning for all modules
-- Assistance of database migration, from cetus to AWS RDS, check and optimize required query
-- Assistance of new country environment deploy, load test environment deploy
-- Production issue tracking , find the issue in the first place and fix immediately before user affected
+#### SportyBet
+- Feature implementation
+  - Fixed issue of third-party library, hacked library for system requirement
+  - Configured and implemented Redis R/W access, balanced loading in production. Migrated high loaded Redis to cluster mode
+  - Implemented tax logic, included withholding tax and excise tax
+  - Optimized MTS process with multi-thread, integrated with sync-async conversion in order flow
+  - Implemented KYC, ensure user experience in deposit/withdraw and avoid fraud from users
+  - Implemented DoB promotion, provided trusted info for KYC
+  - Implemented finance flow, append new mechanism of deposit in core logic flow (PAC Account)
+  - Implemented supporter feature, allowed verified user to transfer money to another user (P2P transfer)
+  - Designed and implemented log analysis service for mobile devices
+  - Design and integrated all modules to CMS
+  - Fix bug and vulnerabilities from SonarQube
+- Performance
+  - Solved and optimized performance issue on huge amount of settlement messages at the same time
+  - Optimized settlement flow, decreased load of database, decreased unnecessary/duplicated computing
+  - SQL performance tuning for all modules, based on the monitor from DBA
+  - Optimized message push service, decreased push delay and increased scalability of service
+  - Optimized memory cache usage, created metrics for caches for performance tuning
+  - Enhanced Jaeger APM, provided more info in tracing performance issue
+  - Added various metrics, made system status and abnormal clearly. Fix issues before damage encountered
+  - Solved cache issue caused full GC, tuning JVM arguments and migrate parallel GC to G1 GC
+  - Measured and analysis performance of order, made the metrics more clear and do improvement depend on it
+  - Analysis API performance of sms module, improved incorrect collection usage and solve parallel issue.
+  - Analysis OOM, high CPU, network issue and improve
+  - Improve test performance, include code performance and environment performance (mysql)
+- Architecture
+  - Help database migration, from cetus to AWS RDS, rewrite and optimized part of queries
+  - Split payment module into user endpoint and third-party endpoint, prevent affected each other
+  - Help new country environment deployment, troubleshooting relevant issues
+  - Upgrade modules from Spring Boot 1.6 to 2.3
+  - Optimized resource configuration in Kubernetes, analysis issues on running
+  - Log system integration solution (cloudwatch, rsyslog, kafka, loki)
+  - Rebuilt load test solution, with gatling and argo workflow
+  - Continuously code refactor
+  - Optimized maven dependency for all modules
+  - Split order module, avoid traffic and transaction from different caused loading issue
+#### SportyBet - International
+- Design and implemented email based registration, multiple countries, multiple languages, multiple currency supported
+- Design and implemented dynamic, flexible KYC
+#### Other
+- Production issue trace, find issue at the first place and fix immediately before user affected
 - Production outage handling
-- Upgrade modules from Spring Boot 1.6 to 2.3
-- Configure resource in Kubernetes, analysis issue and optimize
-  - Optimize resource usage
-  - Plan HPA and replicas scaling strategy
-- Log system integration solution (cloudwatch, rsyslog, kafka)
-- Introduce technologies, such as SonarQube、Webflux、gRPC、drone、KEDA
+- Introduced solutions, such as SonarQube、Webflux、gRPC、drone、KEDA, arog workflow, gatling
+#### Management
+- Principal engineer since 2021/01
+- Backend team leader since 2021/05
+- Lead Stability & Security team, ensure production robust and stable. Traffic at the end of 2021 increased to triple from earlier of 2021
+- Backend team management
 
 ##### Tags
 
@@ -99,7 +127,7 @@ Love learning technology, have a habit of reading technology articles every day,
 - Introduce .NET Core 2.0 for new feature development.
 - Ask team members providing automatic unit/integration test, reduce test costs and improve system quality.
 - Complete a POC of seat allocation service in one month, with high loading, capability, availability and scalability.
-- Introduce docker container service for simplify development environment and deployment.
+- Introduce docker container service to simplify development environment and deployment.
 - Introduce ELK log analysis for monitor and behavior analytics.
 - Replace outsourced allocate system with self-designed service, claim refund of paid fees.
 - Introduce Kubernetes for container deployment and managements.
@@ -119,10 +147,10 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Jun 2017 - Dec 2017
 
-- Develop a sub module of vendor collaborative management system (VCMS). 
+- Develop a submodule of vendor collaborative management system (VCMS). 
 - Upgrade Vendor2G from .net 1.1 with crystal report.
 - Refactoring usage of source control and create guideline for develop flow.
-- Provide CI/Jenkins solution for build and archive binaries.
+- Provide CI/Jenkins solution to build and archive binaries.
 
 ##### Tags
 
@@ -140,10 +168,10 @@ Love learning technology, have a habit of reading technology articles every day,
 
 - Construct architecture for new or exists project, integration with multiple system and data exchange.
 - Performance tuning and optimize resource usage strategy.
-- Simplify developing flow such as reduce repetitive code snippets and automate repetitive tasks.
+- Simplify developing flow, such as reduce repetitive code snippets and automate repetitive tasks.
 - Improve and keep high quality such as provide develop guide, use static code analysis and code review.
 - Research and provide solution for project and pre-sales.
-- Develop and provide foundation component like aop or code generator.
+- Develop and provide foundation component like AOP or code generator.
 - Manage project schedule and task assignment, lead members to reach goal.
 - Provide training of project related skills for newbie and team members.
 - Communicate with customers and earn the trust and recognition.
@@ -177,7 +205,7 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Feb 2012 - Oct 2012
 
-- Develop AI(Ability International) order system based on web application and migrate old one from lotus notes
+- Develop AI (Ability International) order system based on web application and migrate old one from lotus notes
 - Develop CRM, attendance, repair service, customer service for departments of AI
 - Maintain EIP of GrandTech and AI
 - Network and servers maintenance
@@ -283,8 +311,6 @@ Both of Information Management and Japanese Language and Literature
 ## Personal Links
 
 * Blog: https://nanashi07.blogspot.tw/
-* Gitbook: https://www.gitbook.com/@nanashi07
 * Github: https://github.com/prhythm
 * Web components: https://www.webcomponents.org/author/Prhythm
 * Chrome extensions: https://goo.gl/J62Khh
-* App: https://play.google.com/store/apps/details?id=com.prhythm.billtracker
