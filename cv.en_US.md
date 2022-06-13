@@ -69,6 +69,7 @@ Love learning technology, have a habit of reading technology articles every day,
   - Continuously code refactor
   - Optimized maven dependency for all modules
   - Split order module, avoid traffic and transaction from different caused loading issue
+  - Participate TiDB, SQL Proxy migration
 #### SportyBet - International
 - Design and implemented email based registration, multiple countries, multiple languages, multiple currency supported
 - Design and implemented dynamic, flexible KYC
