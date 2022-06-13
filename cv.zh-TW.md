@@ -69,6 +69,7 @@
   - 持續重構各模組程式碼
   - 優化各模組的 maven dependency
   - 分離訂單模組，避免因流量或 bug 造成訂單問題。
+  - 參與 TiDB、SQLProxy 遷移計畫
 #### SportyBet - International
 - 開發以 email 為基礎的註冊流程，支援多國家，多語言，多幣別會員
 - 設計彈性動態的 KYC 功能
