@@ -69,7 +69,7 @@ Love learning technology, have a habit of reading technology articles every day,
   - Continuously code refactor
   - Optimized maven dependency for all modules
   - Split order module, avoid traffic and transaction from different caused loading issue
-  - Participate TiDB, SQL Proxy migration
+  - Plan and participate TiDB, SQL Proxy, Sharding JDBC migration
 #### SportyBet - International
 - Design and implemented email based registration, multiple countries, multiple languages, multiple currency supported
 - Design and implemented dynamic, flexible KYC
@@ -80,7 +80,7 @@ Love learning technology, have a habit of reading technology articles every day,
 #### Management
 - Principal engineer since 2021/01
 - Backend team leader since 2021/05
-- Lead Stability & Security team, ensure production robust and stable. Traffic at the end of 2021 increased to triple from earlier of 2021
+- Lead Stability & Security team, ensure production robust and stable. Traffic at the end of 2021 increased to 4x from earlier of 2021
 - Backend team management
 
 ##### Tags
