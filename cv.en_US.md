@@ -312,6 +312,6 @@ Both of Information Management and Japanese Language and Literature
 ## Personal Links
 
 * Blog: https://nanashi07.blogspot.tw/
-* Github: https://github.com/prhythm
+* Github: https://github.com/prhythm, https://github.com/nanashi07
 * Web components: https://www.webcomponents.org/author/Prhythm
 * Chrome extensions: https://goo.gl/J62Khh
