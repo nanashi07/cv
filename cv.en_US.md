@@ -76,7 +76,7 @@ Love learning technology, have a habit of reading technology articles every day,
 #### Other
 - Production issue trace, find issue at the first place and fix immediately before user affected
 - Production outage handling
-- Introduced solutions, such as SonarQube、Webflux、gRPC、drone、KEDA, arog workflow, gatling
+- Introduced solutions, such as SonarQube, Webflux, gRPC, drone, KEDA, arog workflow, gatling
 #### Management
 - Principal engineer since 2021/01
 - Backend team leader since 2021/05
