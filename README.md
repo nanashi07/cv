@@ -2,21 +2,21 @@
 
 ## Technical skills
 
-Familiar with development (major of .net & Java), system architect, solution intergration, demand analysis, environment construction include cloud, performance improvement, technical training
+Familiar with development (majority focus on Java), system architect, solution integration, demand analysis, environment construction include cloud, performance improvement, technical training
 
 ### Keywords
 
-- `.net`, `Java`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
--  `Angular`, `Vue`, `jQuery`, `Polymer`
-- `Linux`, `shell script`
-- `Azure`, `GCP`, `AWS`
-- `SQL-Server`, `Oracle`, `MySQL`, `PostgreSQL`, `Cetus`
-- `MongoDB`, `Redis`
-- `RabbitMQ`, `Kafka`, `RocketMQ`
+- `.NET`, `Java`, `Rust`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
+-  `Angular`, `Vue`, `jQuery`, `Polymer`, `LitElement`
+- `Linux`, `shell`
+- `AWS`, `Azure`, `GCP`
+- `MySQL`, `SQL-Server`, `Oracle`, `PostgreSQL`, `Cetus`
+- `Redis`, `MongoDB`
+- `RocketMQ`, `RabbitMQ`, `Kafka`
 - `Git`, `Subversion`
 - `Gitlab-CI`, `Jenkins`, `SonarQube`, `drone`, `Argo workflow`
 - `Docker`, `Kubernetes`
-- `Android`
+- `Android native`
 
 ## Work experience
 
