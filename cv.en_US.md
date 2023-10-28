@@ -19,19 +19,6 @@ Love self-learning technology skills, sensitive to the changes in the software i
 
 > Jul 2019 - NOW
 
-#### Games
-- Migrate RabbitMQ to RocketMQ for Sporty Soccer
-- Kickoff Sporty-Fantasy
-  - System planning and architecture design
-  - Multi-country, multi-user contest game
-  - Communicated and integrated with third-party APIs
-  - 80% of total code implementation
-#### Sporty.com
-- Kickoff Sporty.com
-  - System planning and architecture design, totaling 7 modules
-  - As a sports media app, include news, video, chat, sharing, and social features
-  - Communicated and integrated with third-party APIs
-  - 75% of total code implementation
 #### SportyBet
 - Feature implementation
   - Fixed issue of third-party library, hacked library for system requirement
@@ -71,14 +58,6 @@ Love self-learning technology skills, sensitive to the changes in the software i
   - Split the order module to avoid traffic and transactions interrupted by query performance issues.
   - Planned and participated in TiDB, SQL Proxy POC
   - Designed and implemented Sharding JDBC migration
-#### SportyBet - International
-- Designed and implemented email-based registration, multiple countries, multiple languages, and multiple currencies supported
-- Designed and implemented dynamic, flexible KYC
-#### Other
-- Production issue trace: find the issue in the first place and fix it immediately before users are affected
-- Production incidents handling
-- Introduced solutions, such as SonarQube, Webflux, gRPC, drone, KEDA, Argo workflow, Gatling
-- Assist architecture design cross teams in other regions
 #### Management
 - Technical director since 2023/01
 - Principal engineer since 2021/01
@@ -86,6 +65,27 @@ Love self-learning technology skills, sensitive to the changes in the software i
 - Lead the Stability & Security team, ensured production environment is as robust and stable as possible. Traffic at the end of 2023 increased by 10 times from earlier in 2021.
 - Backend team management
 - Technical teams management
+#### SportyBet - International
+- Designed and implemented email-based registration, multiple countries, multiple languages, and multiple currencies supported
+- Designed and implemented dynamic, flexible KYC
+#### Games
+- Migrate RabbitMQ to RocketMQ for Sporty Soccer
+- Kickoff Sporty-Fantasy
+  - System planning and architecture design
+  - Multi-country, multi-user contest game
+  - Communicated and integrated with third-party APIs
+  - 80% of total code implementation
+#### Sporty.com
+- Kickoff Sporty.com
+  - System planning and architecture design, totaling 7 modules
+  - As a sports media app, include news, video, chat, sharing, and social features
+  - Communicated and integrated with third-party APIs
+  - 75% of total code implementation
+#### Other
+- Production issue trace: find the issue in the first place and fix it immediately before users are affected
+- Production incidents handling
+- Introduced solutions, such as SonarQube, Webflux, gRPC, drone, KEDA, Argo workflow, Gatling
+- Assist architecture design cross teams in other regions
 
 ##### Tags
 
