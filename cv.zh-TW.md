@@ -19,19 +19,6 @@
 
 > 七月 2019 - NOW
 
-#### Games
-- 遷移 Sporty Soccer  RabbitMQ 至 RocketMQ
-- 啟動 Sporty Fantasy 專案
-  - 系統整體規劃與設計
-  - 多國、多人競合遊戲
-  - 第三方 API 溝通與串接
-  - 80% 的後端程式碼實作
-#### Sporty.com
-- 啟動 Sporty.com 專案
-  - 系統整體規劃與設計，共 7 個模組
-  - 定位為運動類型多媒體，包含新聞、影片、聊天、分享、社交等功能
-  - 第三方 API 溝通與串接
-  - 75% 的後端程式碼實作
 #### SportyBet
 - 功能實作
   - 修正第三方函式庫臭蟲。覆寫第三方函式庫功能。
@@ -71,19 +58,32 @@
   - 分離訂單模組，避免因流量或 bug 造成訂單問題。
   - 規劃並參與 TiDB、SQLProxy
   - 完成 Sharding JDBC 遷移計畫
-#### SportyBet - International
-- 開發以 email 為基礎的註冊流程，支援多國家，多語言，多幣別會員
-- 設計彈性動態的 KYC 功能
-#### Other
-- 系統異常追蹤，主動發現問題並在造成影響前修復或降低影響
-- 線上環境緊急災難應變
-- 引入多項技術，包含 SonarQube、Webflux、gRPC、drone、KEDA, argo workflow, gatling
-- 協助其它區域團隊改善系統架構
 #### Management
 - 自 2021 年 1 月升為 principal engineer
 - 自 2021 年 5 月擔任 backend team leader 
 - 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初流量成長 4 倍
 - 管理後端開發人員，引導同仁職涯發展，協助解決同仁開發困難
+#### SportyBet - International
+- 開發以 email 為基礎的註冊流程，支援多國家，多語言，多幣別會員
+- 設計彈性動態的 KYC 功能
+#### Games
+- 遷移 Sporty Soccer  RabbitMQ 至 RocketMQ
+- 啟動 Sporty Fantasy 專案
+  - 系統整體規劃與設計
+  - 多國、多人競合遊戲
+  - 第三方 API 溝通與串接
+  - 80% 的後端程式碼實作
+#### Sporty.com
+- 啟動 Sporty.com 專案
+  - 系統整體規劃與設計，共 7 個模組
+  - 定位為運動類型多媒體，包含新聞、影片、聊天、分享、社交等功能
+  - 第三方 API 溝通與串接
+  - 75% 的後端程式碼實作
+#### Other
+- 系統異常追蹤，主動發現問題並在造成影響前修復或降低影響
+- 線上環境緊急災難應變
+- 引入多項技術，包含 SonarQube、Webflux、gRPC、drone、KEDA, argo workflow, gatling
+- 協助其它區域團隊改善系統架構
 
 ##### Tags
 
