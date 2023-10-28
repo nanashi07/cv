@@ -91,6 +91,11 @@ Love self-learning technology skills, sensitive to the changes in the software i
 
 `SportyBet`, `Fantasy`, `Sporty.com` | `Java`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Reids`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger(opentracing)`, `Prometheus`
 
+##### Links
+
+* https://sportybet.com
+* https://sporty.com
+
 ------------------------------------------------------------------------
 
 ### Engineer @*Silkrode  Technologies Co., Ltd.*
