@@ -4,13 +4,13 @@
 
 ## Summary
 
-Familiar to design and develop software system, analysis and performance tuning, improve development process efficiency and producing quality. Understand performance issue and maintainability of development, having ability to integrate with developing system and various solution, and be able to work independently or leading members to achieve goals.
+Familiar with system design, software development, system analysis and performance tuning. Experienced in improving the efficiency of the development process and producing quality. Focus on performance issues and the maintainability of development. Highly skilled in integration between multiple systems with various solutions. Had used to face difficulties and overcome them to help business growth. Excellent performance as an independent contributor, mentor, team player and leader.
 
-Major use Java and C#, and use Python / node.js / go, etc. as assistance. Familiar to web based systems, experienced with frameworks like Angular, Vue, Polymer, jQuery and so on. Familiar to SQL Server, Oracle and substitute of MySQL database.
+The majority use Java and C# for development, and others use Python, Node.js, Go, Rust, etc. for assistance. Familiar with web-based systems and experienced with frameworks like Angular, Vue, Polymer, jQuery and so on. Familiar with persistence layers such as MySQL and SQL Server; familiar with NO-SQL/cache such as Redis; familiar with asyncrhonized process flow using queue systems such as RocketMQ and RabbitMQ; familiar with integration with cloud services such as AWS and Azure.
 
-Beside programming, familiar to linux system and solutions such as nginx, ELK, SonarQube, docker, Kubernetes and experienced with cloud service of GCP and Azure.
+Beside development, be familiar with infrastructure such as Kubernetes, Linux, Nginx, ELK, SonarQube, docker, etc. Experienced with the cloud services such as AWS and Azure.
 
-Love learning technology, have a habit of reading technology articles every day, and survey in-depth for things I interested in. Doing my owned side project at leisure time, and push completed projects to Github.
+Love self-learning technology skills, sensitive to the changes in the software industry, used to learn from the daily news. Love to develop interesting side-project on my personal time.
 
 
 ## Work experience
@@ -23,69 +23,73 @@ Love learning technology, have a habit of reading technology articles every day,
 - Migrate RabbitMQ to RocketMQ for Sporty Soccer
 - Kickoff Sporty-Fantasy
   - System planning and architecture design
-  - Multi-countries, multi-users contest game
-  - Communicate and integrate with third-party API
+  - Multi-country, multi-user contest game
+  - Communicated and integrated with third-party APIs
   - 80% of total code implementation
 #### Sporty.com
 - Kickoff Sporty.com
-  - System planning and architecture design, totally 7 modules
-  - As a sports media app, include news, video, chat, share and social
-  - Communicate and integrate with third-party API
+  - System planning and architecture design, totaling 7 modules
+  - As a sports media app, include news, video, chat, sharing, and social features
+  - Communicated and integrated with third-party APIs
   - 75% of total code implementation
 #### SportyBet
 - Feature implementation
   - Fixed issue of third-party library, hacked library for system requirement
-  - Configured and implemented Redis R/W access, balanced loading in production. Migrated high loaded Redis to cluster mode
-  - Implemented tax logic, included withholding tax and excise tax
-  - Optimized MTS process with multi-thread, integrated with sync-async conversion in order flow
+  - Configured and implemented Redis R/W access, balanced loading in production. Migrated high-loaded Redis to cluster mode
+  - Implemented tax logic, including withholding tax and excise tax
+  - Optimized MTS process with multi-thread, integrated with sync-to-async conversion in order flow
   - Implemented KYC, ensure user experience in deposit/withdraw and avoid fraud from users
   - Implemented DoB promotion, provided trusted info for KYC
-  - Implemented finance flow, append new mechanism of deposit in core logic flow (PAC Account)
-  - Implemented supporter feature, allowed verified user to transfer money to another user (P2P transfer)
-  - Designed and implemented log analysis service for mobile devices
-  - Design and integrated all modules to CMS
-  - Fix bug and vulnerabilities from SonarQube
+  - Implemented finance flow, added new mechanism of deposit in core logic flow (PAC Account)
+  - Implemented a supporter feature, allowed verified users to transfer money to another user (P2P transfer)
+  - Designed and implemented a log analysis service for mobile devices
+  - Designed and integrated all modules into the CMS
+  - Fix bugs and vulnerabilities scanned by SonarQube.
 - Performance
-  - Solved and optimized performance issue on huge amount of settlement messages at the same time
-  - Optimized settlement flow, decreased load of database, decreased unnecessary/duplicated computing
-  - SQL performance tuning for all modules, based on the monitor from DBA
+  - Solved and optimized performance issues on a huge number of settlement messages at the same time
+  - Optimized settlement flow, decreased load on the database, decreased unnecessary or duplicate computing
+  - SQL performance tuning for all modules, based on the monitor from DBA or metrics
   - Optimized message push service, decreased push delay and increased scalability of service
   - Optimized memory cache usage, created metrics for caches for performance tuning
-  - Enhanced Jaeger APM, provided more info in tracing performance issue
-  - Added various metrics, made system status and abnormal clearly. Fix issues before damage encountered
-  - Solved cache issue caused full GC, tuning JVM arguments and migrate parallel GC to G1 GC
-  - Measured and analysis performance of order, made the metrics more clear and do improvement depend on it
-  - Analysis API performance of sms module, improved incorrect collection usage and solve parallel issue.
-  - Analysis OOM, high CPU, network issue and improve
-  - Improve test performance, include code performance and environment performance (mysql)
+  - Enhanced Jaeger APM, provided more information on tracing performance issues.
+  - Added various metrics, made system status and abnormalities clear. Fix issues before damage is encountered.
+  - Solved the cache issue caused by full GC, tuned JVM arguments and migrated parallel GC to G1 GC
+  - Measured and analyzed the performance of order service, made the metrics more clear, and made improvement depend on them.
+  - Analyzed the API performance of the SMS module, improved incorrect collection usage, and solved parallel issues.
+  - Analyzed OOM, high CPU and network issues
+  - Improved test performance, including code performance and environment performance (MySql)
 - Architecture
-  - Help database migration, from cetus to AWS RDS, rewrite and optimized part of queries
-  - Split payment module into user endpoint and third-party endpoint, prevent affected each other
-  - Help new country environment deployment, troubleshooting relevant issues
-  - Upgrade modules from Spring Boot 1.6 to 2.3
-  - Optimized resource configuration in Kubernetes, analysis issues on running
-  - Log system integration solution (cloudwatch, rsyslog, kafka, loki)
-  - Rebuilt load test solution, with gatling and argo workflow
-  - Continuously code refactor
+  - Assist database migration, from Cetus to AWS RDS by rewriting and optimizing parts of queries
+  - Split the payment service into user oriental and third-party oriental services, prevent them from affecting each other
+  - Helped with new country environment deployment and troubleshooting relevant issues
+  - Upgrade services from Spring Boot 1.6 to 2.3
+  - Optimized resource configuration in Kubernetes, analysis issues on production
+  - Log system integration solution implementation (cloudwatch, rsyslog, kafka, loki)
+  - Rebuilt load test solution with Gatling and Argo workflow
+  - Continuous code refactoring
   - Optimized maven dependency for all modules
-  - Split order module, avoid traffic and transaction from different caused loading issue
-  - Plan and participate TiDB, SQL Proxy, Sharding JDBC migration
+  - Split the order module to avoid traffic and transactions interrupted by query performance issues.
+  - Planned and participated in TiDB, SQL Proxy POC
+  - Designed and implemented Sharding JDBC migration
 #### SportyBet - International
-- Design and implemented email based registration, multiple countries, multiple languages, multiple currency supported
-- Design and implemented dynamic, flexible KYC
+- Designed and implemented email-based registration, multiple countries, multiple languages, and multiple currencies supported
+- Designed and implemented dynamic, flexible KYC
 #### Other
-- Production issue trace, find issue at the first place and fix immediately before user affected
-- Production outage handling
-- Introduced solutions, such as SonarQube, Webflux, gRPC, drone, KEDA, arog workflow, gatling
+- Production issue trace: find the issue in the first place and fix it immediately before users are affected
+- Production incidents handling
+- Introduced solutions, such as SonarQube, Webflux, gRPC, drone, KEDA, Argo workflow, Gatling
+- Assist architecture design cross teams in other regions
 #### Management
+- Technical director since 2023/01
 - Principal engineer since 2021/01
 - Backend team leader since 2021/05
-- Lead Stability & Security team, ensure production robust and stable. Traffic at the end of 2021 increased to 4x from earlier of 2021
+- Lead the Stability & Security team, ensured production environment is as robust and stable as possible. Traffic at the end of 2023 increased by 10 times from earlier in 2021.
 - Backend team management
+- Technical teams management
 
 ##### Tags
 
-`SportyBet` `Fantasy` `Sporty.com` | `Java`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Reids`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger(opentracing)`, `Prometheus`
+`SportyBet`, `Fantasy`, `Sporty.com` | `Java`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Reids`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger(opentracing)`, `Prometheus`
 
 ------------------------------------------------------------------------
 
@@ -93,26 +97,26 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Oct 2018 - Jul 2019
 
-- Be backend contact, coordinate with each team.
-- Define API specifications.
-- Build Gitlab and ensure availability.
-- Build required foundation structure and develop core system using .net core.
-- Evaluate and plan architecture of production on GPC, Azure cloud
-- Build production with Kubernetes(GKE), helm and other related solutions
-- Verification of technical solution, includes:
+- Be the backend contact and coordinate with each team.
+- Defined API specifications.
+- Built Gitlab and ensured its availability.
+- Built the required foundation structure and developed the core system using .NET Core.
+- Evaluated and planned architecture of production on GCP and Azure cloud
+- Built production with Kubernetes(GKE), Helm and other related solutions
+- Verification of the technical solutions includes:
   * Performance of the logging library (Nlog / Serilog / Log4net)
   * Redis client / server solution (StackExchange / ServiceStack / CsRedis / Cluster / Sentinel / Codis)
   * Performance of JSON serialization  (Newtonsoft / Jil / Utf8Json)
   * Availability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
   * Asynchronized process performance. (Queue / HangFire / Polly)
 - Intranet environment planning and construction.
-- Management of cloud environment.
+- Management of the cloud environment.
 - CI/CD planning and implementation
 - Sharing and technical training
 
 ##### Tags
 
-`Trade` `Profit` | `C#` `.Net Core` `Percona` `Docker` `Kubernetes` `Redis` `RabbitMQ` `CentOS` `Gitlab-CI` `SonarQube` `Graylog` `ELK` `MongoDB` `GCP` `Azure` `Architect` `Helm` `HAProxy`
+`Trade`, `Profit` | `C#`, `.Net Core`, `Percona`, `Docker`, `Kubernetes`, `Redis`, `RabbitMQ`, `CentOS`, `Gitlab-CI`, `SonarQube`, `Graylog`, `ELK`, `MongoDB`, `GCP`, `Azure`, `Architect`, `Helm`, `HAProxy`
 
 ------------------------------------------------------------------------
 
@@ -120,27 +124,27 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Feb 2018 - Oct 2018
 
-- Plan and architect deployment on azure.
-- Introduce CI/CD using gitlab, define and simplify develop flow.
-- Introduce code analysis using SonarQube and ensure code quality.
-- Introduce Protobuf for serialization between platforms
-- Reconstruct monolithic system structure with 4-layer/3-tier design.
-- Introduce .NET Core 2.0 for new feature development.
-- Ask team members providing automatic unit/integration test, reduce test costs and improve system quality.
-- Complete a POC of seat allocation service in one month, with high loading, capability, availability and scalability.
-- Introduce docker container service to simplify development environment and deployment.
-- Introduce ELK log analysis for monitor and behavior analytics.
-- Replace outsourced allocate system with self-designed service, claim refund of paid fees.
-- Introduce Kubernetes for container deployment and managements.
-- Plan and manage for team jobs, technical trainings
+- Planned and architected deployment on Azure.
+- Introduced CI/CD using Gitlab, defined and simplified the development flow.
+- Introduced code analysis using SonarQube and ensured code quality.
+- Introduced Protobuf for serialization between platforms
+- Reconstructed monolithic system structure by 4-layer/3-tier design
+- Introduced .NET Core 2.0 for new feature development.
+- Asked team members to provide automatic unit and integration tests, reduced test costs and improve system quality.
+- Completed a POC of seat allocation service in one month with high loading, capability, availability and scalability.
+- Introduced docker container service to simplify the development environment and deployment.
+- Introduced ELK log analysis for monitoring and behavior analytics.
+- Replaced the outsourced allocation system with a self-designed service and claimed a refund of paid fees.
+- Introduced Kubernetes for container deployment and management.
+- Planned and managed for team jobs and technical trainings
 
 ##### Tags
 
-`Dingok` | `C#` `.NET Framework` `.Net Core` `WPF` `SQL Server` `Azure` `Docker` `RabbitMQ` `Redis` `CentOS` `Ubuntu` `Gitlab` `git` `SonarQube` `ELK` `CI` `CD` `Protobuf` `System Architect Design` `k8s`
+`Dingok` | `C#`, `.NET Framework`, `.Net Core`, `WPF`, `SQL Server`, `Azure` `Docker`, `RabbitMQ`, `Redis`, `CentOS`, `Ubuntu`, `Gitlab`, `git`, `SonarQube`, `ELK`, `CI`, `CD`, `Protobuf`, `System Architect Design`, `k8s`
 
 ##### Links
 
-* https://dingok.com
+* https://dingok.com (deprecated)
 
 ------------------------------------------------------------------------
 
@@ -148,14 +152,14 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Jun 2017 - Dec 2017
 
-- Develop a submodule of vendor collaborative management system (VCMS). 
-- Upgrade Vendor2G from .net 1.1 with crystal report.
-- Refactoring usage of source control and create guideline for develop flow.
-- Provide CI/Jenkins solution to build and archive binaries.
+- Developed a submodule of the vendor collaborative management system (VCMS). 
+- Upgraded Vendor2G from .NET 1.1 by crystal report.
+- Refactored the usage of source control and created guidelines for development flow.
+- Provided CI/Jenkins solutions to build and archive binaries.
 
 ##### Tags
 
-`VCMS` `Vendor2G` `SISO` | `.NET Web form` `SQL Server` `jQuery` `Jenkins` `SVN`
+`VCMS`, `Vendor2G`, `SISO` | `.NET Web form`, `SQL Server`, `jQuery`, `Jenkins`, `SVN`
 
 ##### Links
 
@@ -167,19 +171,19 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Dec 2014 - May 2017
 
-- Construct architecture for new or exists project, integration with multiple system and data exchange.
-- Performance tuning and optimize resource usage strategy.
-- Simplify developing flow, such as reduce repetitive code snippets and automate repetitive tasks.
-- Improve and keep high quality such as provide develop guide, use static code analysis and code review.
-- Research and provide solution for project and pre-sales.
-- Develop and provide foundation component like AOP or code generator.
-- Manage project schedule and task assignment, lead members to reach goal.
-- Provide training of project related skills for newbie and team members.
-- Communicate with customers and earn the trust and recognition.
+- Construct architecture for new or existing projects, integration with multiple systems, and data exchange.
+- Performance tuning and optimizing resource usage strategies
+- Simplify the development flow, such as by reducing repetitive code snippets and automating repetitive tasks.
+- Improve and keep high quality, such as by providing a development guide, using static code analysis and code review.
+- Research and provide solutions for projects and pre-sales.
+- Develop and provide foundation components like AOP or code generator.
+- Manage the project schedule and task assignment, and lead members to achieve the goal.
+- Provide training in project-related skills for newbies and team members.
+- Communicate with customers and earn their trust and recognition.
 
 ##### Tags
 
-`Fetnet eService` `Fetnet Code trace` `NEC Cosmed` `Arcoa NDRS` `Arcoa EIP` `Kingdu` | `Spring MVC` `Struts` `.NET MVC` `Hibernate` `MyBatis` `Entity Framework` `Dapper` `ADO` `Oracle` `SQL Server` `MySQL` `angular.js` `Vue` `jQuery` `weblogic` `IIS` `CentOS` `RHEL`
+`Fetnet eService`, `Fetnet Code trace`, `NEC Cosmed`, `Arcoa NDRS`, `Arcoa EIP`, `Kingdu` | `Spring MVC`, `Struts`, `.NET MVC`, `Hibernate`, `MyBatis`, `Entity Framework`, `Dapper`, `ADO`, `Oracle`, `SQL Server`, `MySQL`, `angular.js`, `Vue` `jQuery`, `weblogic`, `IIS`, `CentOS`, `RHEL`
 
 ##### Links
 
@@ -192,13 +196,13 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Nov 2012 - Oct 2014
 
-- Customize Umbraco CMS, design function of supplier or distributors access control
-- Develop, maintain and manage project systems based on Microsoft office sharepoint
+- Customize Umbraco CMS and design the function of supplier or distributor access control
+- Develop, maintain and manage project systems based on Microsoft Office SharePoint.
 - Supply technical support for other teams
 
 ##### Tags
 
-`ishare` `ishare 2.0` `ishare 3.0` `Legal Contract Management system` `Calendar Synchronization` `BIF - Report information frontend` `APAC Sales Kick-off` `Quarterly IS Awards` `The circle` `Olympic 25th` | `Sharepoint` `C#` `jQuery` `Android`
+`ishare`, `ishare 2.0`, `ishare 3.0`, `Legal Contract Management system`, `Calendar Synchronization`, `BIF - Report information frontend`, `APAC Sales Kick-off`, `Quarterly IS Awards`, `The circle`, `Olympic 25th` | `Sharepoint`, `C#`, `jQuery`, `Android`
 
 ------------------------------------------------------------------------
 
@@ -206,15 +210,15 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Feb 2012 - Oct 2012
 
-- Develop AI (Ability International) order system based on web application and migrate old one from lotus notes
-- Develop CRM, attendance, repair service, customer service for departments of AI
-- Maintain EIP of GrandTech and AI
-- Network and servers maintenance
-- MIS supporting of GI (GrandTech Information) and  TI (TopTeam Information)
-- Develop and maintain ETL and reports from SAP and EIP, performance tuning for execution.
+- Develop AI (Ability International) order system based on a web application and migrate the old one from Lotus Notes.
+- Develop CRM, attendance, repair service, and customer service for departments of AI
+- Maintain the EIP of GrandTech and AI
+- Network and server maintenance
+- MIS supports GI (GrandTech Information) and  TI (TopTeam Information)
+- Develop and maintain ETL and reports from SAP and EIP, and perform performance tuning for execution.
 - Routine jobs and maintenance of SAP
 - Source control reconstruction
-- Daily jobs of MIS department
+- Daily jobs of the MIS department
 
 ------------------------------------------------------------------------
 
@@ -222,12 +226,12 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > May 2010 - Feb 2012
 
-- Develop MES for manufacture flow
-- Develop workflow for departments using GP
+- Develop MES for manufacturing flow.
+- Develop workflows for departments using GP
 - Support and maintain Tiptop
-- Maintenance of web portal
-- Develop functional feature for departments
-- Support general application process of RD
+- Maintenance of the web portal
+- Develop functional features for departments
+- Support the general application process for RD.
 - Support network and hardware maintenance
 
 ------------------------------------------------------------------------
@@ -236,9 +240,9 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Jul 2008 - May 2010
 
-- Develop and maintain eGov portal
+- Develop and maintain the eGov portal
 - Develop and maintain eGov modules and services
-- Develop and maintain data exchange interface and function
+- Develop and maintain a data exchange interface and function
 - Customize Worksite MP as KMS
 
 ------------------------------------------------------------------------
@@ -247,8 +251,8 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > Feb 2007 - Jun 2008
 
-- Maintenance customer's system. Develop online shopping site and enterprise portal.
-- Mainly use JSP/Servlet, and MySQL, SQL Server database
+- Maintenance of the customer's system. Develop an online shopping site and enterprise portal.
+- Mainly use JSP/Servlet, MySQL and SQL Server
 
 ## Education
 
@@ -256,7 +260,7 @@ Love learning technology, have a habit of reading technology articles every day,
 
 > 1998 - 2004
 
-Both of Information Management and Japanese Language and Literature
+Both information management and Japanese language and literature
 
 
 ## Skills
@@ -267,35 +271,35 @@ Both of Information Management and Japanese Language and Literature
 
 ### Programming Language
 
-`Java` `C#` `.Net Framework` `.Net Core` `Javascript` `Kotlin` `Python` `node.js` `Go`
+`Java`, `C#`, `.Net Framework`, `.Net Core`, `Javascript`, `Kotlin`, `Python`, `node.js`, `Go`, `Rust`
 
 ### Front End
 
-`jQuery` `Angular` `Vue` `Polymer`
+`jQuery`, `Angular`, `Vue`, `Polymer`, `LitElement`
 
 ### OS
 
-`Windows` `CentOS` `Ubuntu` `MacOS`
+`Windows`, `CentOS`, `Ubuntu`, `MacOS`
 
 ### Database
 
-`SQL Server` `Oracle` `MySQL` `MariaDB` `PostgreSQL` `Mongodb` `PouchDB` `Couchbase` `Redis` `Cetus`
+`MySQL`, `SQL Server`, `Oracle`, `MariaDB`, `PostgreSQL`, `Mongodb`, `PouchDB`, `Couchbase`, `Redis`, `Cetus`
 
 ### Message Queue
 
-`RabbitMQ` `Kafka` `RocketMQ`
+`RabbitMQ`, `Kafka`, `RocketMQ`
 
 ### SCM 
 
-`Git` `SVN` `Team Foundation Server`
+`Git`, `SVN`, `Team Foundation Server`
 
 ### DevOps
 
-`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes` `Istio` `Argo workflow`
+`Kubernetes`, `Jenkins`, `TeamCity`, `Gitlab-CI`, `Consul`, `Istio`, `Argo workflow`
 
 ### Virtualization
 
-`Virtualbox` `Hyper-V` `Docker` `KVM`
+`Virtualbox`, `Hyper-V`, `Docker`, `KVM`, `Promox`
 
 ### Mobile 
 
@@ -303,11 +307,11 @@ Both of Information Management and Japanese Language and Literature
 
 ### Design 
 
-`Software architect` `System design document` `System analysis`
+`System architect`, `System integration`, `Documentation`, `System analysis`
 
 ### Management
 
-`Communication for customers and members` `Skill training for team members` `Project tasks management`
+`Team leading`, `Culture establish`, `Communication`, `Training and mentoring`, `Project management`
 
 ## Personal Links
 
