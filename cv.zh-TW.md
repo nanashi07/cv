@@ -4,13 +4,13 @@
 
 ## 概要
 
-擅長系統規劃與開發，分析並提升系統效能，簡化開發流程，提升效率與產出品質。深入理解開發程式的效能與可維護性，具有統合程式開發與各類解決方案能力，並且能夠獨立作業或帶領成員完成目標。
+擅長系統規劃與開發，分析並提升系統效能，在簡化開發流程，提升效率與產出品質方面有豐富的經驗。專注開發程式的效能與可維護性，精通多個系統與各種解決方案之間的整合，並且能夠獨立作業或帶領成員完成目標。習慣於面對困難並克服它們來促進業務發展。作為獨立貢獻者、導師、團隊合作者和領導者都有出色的表現。
 
-主要使用語言為 Java 及 C#，並以 Python / node.js / go 等為輔助處理事務。熟悉但不限定於 Web 相關的系統，前端語言多數使用 Angular，Vue，Polymer，jQuery 等。了解並熟悉包含 SQL Server、Oracle、MySQL 同質資料庫。
+主要使用語言為 Java 及 C# 進行開發，並以 Python / node.js / go / rust 等為輔助開發工具。熟悉但不限定於 Web 相關的系統，了解前端框架 Angular，Vue，Polymer，jQuery 等。熟悉 MySQL, SQL Server 等持久層。熟悉 Redis 等 NO-SQL/快取。熟悉使用 RocketMQ 和 RabbitMQ 等佇列系統的非同步流程。熟悉與 AWS 和 Azure 等雲端服務的整合。
 
-除開發相關外，熟悉 linux、nginx、ELK、SonarQube、docker、Kubernetes 等解決方案，並在 Azure / GCP / AWS 上有相當的實務經驗。
+除了開發之外，還熟悉 Kubernetes、Linux、Nginx、ELK、SonarQube、docker 等基礎架構。熟悉 AWS、Azure 等雲端服務。
 
-熱愛學習技術，每天都會維持著閱讀各類文章的習慣，並對有興趣的內容進行較深入的了解。閒暇時間喜歡做自己的 side project，並將較完整的項目放至 Github 上。
+熱愛自學技術技能，對軟體產業的變化敏感，習慣從日常新聞中學習。喜歡利用個人時間開發有趣的業餘項目。
 
 
 ## 經歷
@@ -57,7 +57,7 @@
   - 量測並分析 order 效能，細化指標後依據指標優化 order
   - 分析 SMS 模組 API 效能，優化改進，(Collection contains, parallel issue)
   - 分析 OOM、高 cpu、網路問題原因，並針對問題改善
-  - 提升測試效能，包含啟動速度，環境執行速度（mysql）
+  - 提升測試效能，包含啟動速度，環境執行速度（MySQL）
 - 系統架構
   - 資料庫遷移，由 cetus 遷移至 AWS RDS，調整遷移時前後的查詢問題
   - 分離金流模組入口，拆分為用戶端入口與第三方入口，避免相互影響
@@ -69,7 +69,8 @@
   - 持續重構各模組程式碼
   - 優化各模組的 maven dependency
   - 分離訂單模組，避免因流量或 bug 造成訂單問題。
-  - 規劃並參與 TiDB、SQLProxy、Sharding JDBC 遷移計畫
+  - 規劃並參與 TiDB、SQLProxy
+  - 完成 Sharding JDBC 遷移計畫
 #### SportyBet - International
 - 開發以 email 為基礎的註冊流程，支援多國家，多語言，多幣別會員
 - 設計彈性動態的 KYC 功能
@@ -77,6 +78,7 @@
 - 系統異常追蹤，主動發現問題並在造成影響前修復或降低影響
 - 線上環境緊急災難應變
 - 引入多項技術，包含 SonarQube、Webflux、gRPC、drone、KEDA, argo workflow, gatling
+- 協助其它區域團隊改善系統架構
 #### Management
 - 自 2021 年 1 月升為 principal engineer
 - 自 2021 年 5 月擔任 backend team leader 
@@ -85,7 +87,7 @@
 
 ##### Tags
 
-`SportyBet` `Fantasy` `Sporty.com` `SportyBet-International` | `Java 8`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Redis`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger`, `Prometheus`
+`SportyBet`, `Fantasy`, `Sporty.com`, `SportyBet-International` | `Java 8`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Redis`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger`, `Prometheus`
 
 ------------------------------------------------------------------------
 
@@ -97,7 +99,7 @@
 - 制定 API 規格文件
 - 建置 Gitlab 環境並保證其可用性
 - 以 .net core 建置專案基礎功能與開發核心系統功能
-- 評估並規劃 GPC、Azure 上的生產環境架構
+- 評估並規劃 GCP、Azure 上的生產環境架構
 - 以 Kubernetes (GKE) 與 helm 等相關方案建置生產環境
 - 驗證技術方案與執行效能，如：
   * 驗證日誌套件的效能 (Nlog / Serilog / Log4net)
@@ -112,7 +114,7 @@
 
 ##### Tags
 
-`Trade` `Profit` | `C#` `.Net Core` `Percona` `Docker` `Kubernetes` `Redis` `RabbitMQ` `CentOS` `Gitlab-CI` `SonarQube` `Graylog` `ELK` `MongoDB` `GCP` `Azure` `Architect` `Helm` `HAProxy`
+`Trade`, `Profit` | `C#`, `.Net Core`, `Percona`, `Docker`, `Kubernetes`, `Redis`, `RabbitMQ`, `CentOS`, `Gitlab-CI`, `SonarQube`, `Graylog`, `ELK`, `MongoDB`, `GCP`, `Azure`, `Architect`, `Helm`, `HAProxy`
 
 ------------------------------------------------------------------------
 
@@ -137,7 +139,7 @@
 
 ##### Tags
 
-`Dingok` | `C#` `.NET Framework` `.Net Core` `WPF` `SQL Server` `Azure` `Docker` `RabbitMQ` `Redis` `CentOS` `Ubuntu` `Gitlab` `git` `SonarQube` `ELK` `CI` `CD` `Protobuf` `System Architect Design` `Kubernetes`
+`Dingok` | `C#`, `.NET Framework`, `.Net Core`, `WPF`, `SQL Server`, `Azure`, `Docker`, `RabbitMQ`, `Redis`, `CentOS`, `Ubuntu`, `Gitlab`, `git`, `SonarQube`, `ELK`, `CI`, `CD`, `Protobuf`, `System Architect Design`, `Kubernetes`
 
 ##### Links
 
@@ -156,7 +158,7 @@
 
 ##### Tags
 
-`VCMS` `Vendor2G` `SISO` | `.NET Web form` `SQL Server` `jQuery` `Jenkins` `SVN`
+`VCMS`, `Vendor2G`, `SISO` | `.NET Web form`, `SQL Server`, `jQuery`, `Jenkins`, `SVN`
 
 ##### Links
 
@@ -180,7 +182,7 @@
 
 ##### Tags
 
-`Fetnet eService` `Fetnet Code trace` `NEC Cosmed` `Arcoa NDRS` `Arcoa EIP` `Kingdu` | `Spring MVC` `Struts` `.NET MVC` `Hibernate` `MyBatis` `Entity Framework` `Dapper` `ADO` `Oracle` `SQL Server` `MySQL` `angular.js` `Vue` `jQuery` `weblogic` `IIS` `CentOS` `RHEL`
+`Fetnet eService`, `Fetnet Code trace`, `NEC Cosmed`, `Arcoa NDRS`, `Arcoa EIP`, `Kingdu` | `Spring MVC`, `Struts`, `.NET MVC`, `Hibernate`, `MyBatis`, `Entity Framework`, `Dapper`, `ADO`, `Oracle`, `SQL Server`, `MySQL`, `angular.js`, `Vue`, `jQuery`, `weblogic`, `IIS`, `CentOS`, `RHEL`
 
 ##### Links
 
@@ -199,7 +201,7 @@
 
 ##### Tags
 
-`ishare` `ishare 2.0` `ishare 3.0` `Legal Contract Management system` `Calendar Synchronization` `BIF - Report information frontend` `APAC Sales Kick-off` `Quarterly IS Awards` `The circle` `Olympic 25th` | `Sharepoint` `C#` `jQuery` `Android`
+`ishare`, `ishare 2.0`, `ishare 3.0`, `Legal Contract Management system`, `Calendar Synchronization`, `BIF - Report information frontend`, `APAC Sales Kick-off`, `Quarterly IS Awards`, `The circle`, `Olympic 25th` | `Sharepoint`, `C#`, `jQuery`, `Android`
 
 ------------------------------------------------------------------------
 
@@ -265,47 +267,47 @@
 
 ### 程式語言
 
-`Java` `C#` `.Net Framework` `.Net Core` `Javascript` `Kotlin` `Python` `node.js` `Go`
+`Java`, `C#`, `.Net Framework`, `.Net Core`, `Javascript`, `Kotlin`, `Python`, `node.js`, `Go`, `Rust`
 
 ### 前端框架
 
-`jQuery` `Angular` `Vue` `Polymer`
+`jQuery`, `Angular`, `Vue`, `Polymer`, `LitElement`
 
 ### 作業系統
 
-`Windows` `CentOS` `Ubuntu` `MacOS`
+`Windows`, `CentOS`, `Ubuntu`, `MacOS`
 
 ### 資料庫
 
-`SQL Server` `Oracle` `MySQL` `MariaDB` `PostgreSQL` `Mongodb` `PouchDB` `Couchbase` `Redis` `Cetus`
+`MySQL`, `SQL Server`, `Oracle`, `MariaDB`, `PostgreSQL`, `Mongodb`, `PouchDB`, `Couchbase`, `Redis`, `Cetus`
 
-### Message Queue
+### 佇列
 
-`RabbitMQ` `Kafka` `RocketMQ`
+`RabbitMQ`, `Kafka`, `RocketMQ`
 
-### SCM 
+### 版本控制
 
-`Git` `SVN` `Team Foundation Server`
+`Git`, `SVN`, `Team Foundation Server`
 
-### DevOps 
+### DevOps
 
-`Jenkins` `TeamCity` `Gitlab-CI` `Consul` `Kubernetes` `Istio` `Argo workflow`
+`Kubernetes`, `Jenkins`, `TeamCity`, `Gitlab-CI`, `Consul`, `Istio`, `Argo workflow`
 
 ### 虛擬化
 
-`Virtualbox` `Hyper-V` `Docker` `KVM`
+`Virtualbox`, `Hyper-V`, `Docker`, `KVM`, `Promox`
 
-### Mobile 
+### 行動裝置
 
 `Android (Native)`
 
 ### 設計
 
-`系統設計` `規格文件產出` `系統分析`
+`系統架構`, `系統整合`, `文件化`, `系統分析`
 
 ### 管理
 
-`客戶與成員間的溝通協調` `教育訓練` `專案進度管控`
+`團隊領導`, `文化建立`, `溝通`, `教育訓練與指導`, `專案管理`
 
 ## 個人活動
 
