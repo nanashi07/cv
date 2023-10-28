@@ -89,6 +89,11 @@
 
 `SportyBet`, `Fantasy`, `Sporty.com`, `SportyBet-International` | `Java 8`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Redis`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger`, `Prometheus`
 
+##### Links
+
+* https://sportybet.com
+* https://sporty.com
+
 ------------------------------------------------------------------------
 
 ### 工程師 @*思華科技*
