@@ -2,21 +2,21 @@
 
 ## 技術能力
 
-熟悉系統開發（以 .net 與 Java 為主），系統架構設計，整合各類解決方案，需求分析，系統環境建置，雲端環境建置，效能改善，內部技術分享等
+熟悉系統開發（主要以專注在 Java），系統架構設計，整合各類解決方案，需求分析，系統環境建置，雲端環境建置，效能改善，內部技術分享等
 
 ### 相關技術
 
-- `.net`, `Java`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
--  `Angular`, `Vue`, `jQuery`, `Polymer`
-- `Linux`, `shell script`
-- `Azure`, `GCP`, `AWS`
-- `SQL-Server`, `Oracle`, `MySQL`, `PostgreSQL`, `Cetus`
-- `MongoDB`, `Redis`
-- `RabbitMQ`, `Kafka`, `RocketMQ`
+- `.NET`, `Java`, `Rust`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
+-  `Angular`, `Vue`, `jQuery`, `Polymer`, `LitElement`
+- `Linux`, `shell`
+- `AWS`, `Azure`, `GCP`
+- `MySQL`, `SQL-Server`, `Oracle`, `PostgreSQL`, `Cetus`
+- `Redis`, `MongoDB`
+- `RocketMQ`, `RabbitMQ`, `Kafka`
 - `Git`, `Subversion`
 - `Gitlab-CI`, `Jenkins`, `SonarQube`, `drone`, `Argo workflow`
 - `Docker`, `Kubernetes`
-- `Android`
+- `Android native`
 
 ## 經歷
 
