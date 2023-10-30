@@ -57,11 +57,12 @@
   - 優化各模組的 maven dependency
   - 分離訂單模組，避免因流量或 bug 造成訂單問題。
   - 規劃並參與 TiDB、SQLProxy
-  - 完成 Sharding JDBC 遷移計畫
+  - 完成多數模組的 Sharding JDBC 遷移計畫
 #### Management
+- 自 2023 年 1 月升為 technical director
 - 自 2021 年 1 月升為 principal engineer
 - 自 2021 年 5 月擔任 backend team leader 
-- 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初流量成長 4 倍
+- 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初到 2023 年流量成長 10 倍
 - 管理後端開發人員，引導同仁職涯發展，協助解決同仁開發困難
 #### SportyBet - International
 - 開發以 email 為基礎的註冊流程，支援多國家，多語言，多幣別會員
@@ -148,7 +149,7 @@
 
 ##### Links
 
-* https://dingok.com
+* https://dingok.com (deprecated)
 
 ------------------------------------------------------------------------
 
