@@ -57,11 +57,11 @@ Love self-learning technology skills, sensitive to the changes in the software i
   - Optimized maven dependency for all modules
   - Split the order module to avoid traffic and transactions interrupted by query performance issues.
   - Planned and participated in TiDB, SQL Proxy POC
-  - Designed and implemented Sharding JDBC migration
+  - Designed and implemented Sharding JDBC migration on multiple modules
 #### Management
-- Technical director since 2023/01
-- Principal engineer since 2021/01
-- Backend team leader since 2021/05
+- Technical director since Jan 2023
+- Principal engineer since Jan 2021
+- Backend team leader since May 2021
 - Lead the Stability & Security team, ensured production environment is as robust and stable as possible. Traffic at the end of 2023 increased by 10 times from earlier in 2021.
 - Backend team management
 - Technical teams management
