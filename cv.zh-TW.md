@@ -52,18 +52,23 @@
   - 升級各模組 Spring Boot 1.6 至 2.3
   - 優化 Kubernetes 各類配置，並分析 kubernetes 的問題
   - Log system 整合方案 (cloudwatch, rsyslog, kafka, loki)
-  - 重建壓測方案，使用 gatling 與 arg workflow
   - 持續重構各模組程式碼
   - 優化各模組的 maven dependency
   - 分離訂單模組，避免因流量或 bug 造成訂單問題。
   - 規劃並參與 TiDB、SQLProxy
+  - 提供風控團隊 Redis 遷移方案，獨立完成 Elasticsearch 遷移。
+  - 重新整合 settlement 的流程，提升 rollback 等相關流程的效能與管控
+- 創新
+  - 建立壓測執行方案，使用 gatling 與 arg workflow
   - 完成多數模組的 Sharding JDBC 遷移計畫
+  - 優化 booking code，提出可跨區域/品牌方案或更多附加價值功能
 #### Management
 - 自 2023 年 1 月升為 technical director
 - 自 2021 年 1 月升為 principal engineer
 - 自 2021 年 5 月擔任 backend team leader 
 - 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初到 2023 年流量成長 10 倍
-- 管理後端開發人員，引導同仁職涯發展，協助解決同仁開發困難
+- 管理後端團隊，管理台灣技術團隊
+- 團隊文化與策略管理
 #### SportyBet - International
 - 開發以 email 為基礎的註冊流程，支援多國家，多語言，多幣別會員
 - 設計彈性動態的 KYC 功能
