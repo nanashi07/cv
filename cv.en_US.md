@@ -52,19 +52,23 @@ Love self-learning technology skills, sensitive to the changes in the software i
   - Upgrade services from Spring Boot 1.6 to 2.3
   - Optimized resource configuration in Kubernetes, analysis issues on production
   - Log system integration solution implementation (cloudwatch, rsyslog, kafka, loki)
-  - Rebuilt load test solution with Gatling and Argo workflow
   - Continuous code refactoring
   - Optimized maven dependency for all modules
   - Split the order module to avoid traffic and transactions interrupted by query performance issues.
   - Planned and participated in TiDB, SQL Proxy POC
+  - Provided a Redis migrate solution for the risk team. Completed the Elasticsearch migration independently.
+  - Refactored and integrated settlement flow, made related flow controllable, and improved performance.
+- Innovation
+  - Built load test solution with Gatling and Argo workflow
   - Designed and implemented Sharding JDBC migration on multiple modules
+  - Proposed optimized booking code solution, allows unified code across regions and adds more business value
 #### Management
 - Technical director since Jan 2023
 - Principal engineer since Jan 2021
 - Backend team leader since May 2021
 - Lead the Stability & Security team, ensured production environment is as robust and stable as possible. Traffic at the end of 2023 increased by 10 times from earlier in 2021.
-- Backend team management
-- Technical teams management
+- Backend team and technical teams management
+- Team culture and strategy management
 #### SportyBet - International
 - Designed and implemented email-based registration, multiple countries, multiple languages, and multiple currencies supported
 - Designed and implemented dynamic, flexible KYC
