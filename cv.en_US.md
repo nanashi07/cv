@@ -58,15 +58,18 @@ Love self-learning technology skills, sensitive to the changes in the software i
   - Planned and participated in TiDB, SQL Proxy POC
   - Provided a Redis migrate solution for the risk team. Completed the Elasticsearch migration independently.
   - Refactored and integrated settlement flow, made related flow controllable, and improved performance.
+  - Design and implement Multi-Redis architecture to resolve the resolve the infrastructure limitation to single Redis cluster.
+  - Refactor the system kernal, allow multiple systems deploy on single infrastructure
 - Innovation
   - Built load test solution with Gatling and Argo workflow
   - Designed and implemented Sharding JDBC migration on multiple modules
-  - Proposed optimized booking code solution, allows unified code across regions and adds more business value
+  - Proposed optimized booking code solution, allows unified code across regions and provides more business value
+  - Proposed the concept of any-bet, exploring more market opportunities
 #### Management
-- Technical director since Jan 2023
 - Principal engineer since Jan 2021
 - Backend team leader since May 2021
-- Lead the Stability & Security team, ensured production environment is as robust and stable as possible. Traffic at the end of 2023 increased by 10 times from earlier in 2021.
+- Technical director since Jan 2023
+- Lead the Stability & Security team, ensured production environment is as robust and stable as possible. Traffic at the end of 2024 increased by 20 times from earlier in 2021.
 - Backend team and technical teams management
 - Team culture and strategy management
 #### SportyBet - International
