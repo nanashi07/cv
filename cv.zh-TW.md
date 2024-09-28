@@ -1,7 +1,6 @@
 # Bruce Tsai - *軟體架構師*
 
 ![photo](https://github.com/nanashi07/cv/blob/master/bruce.jpg)
-
 ## 概要
 
 擅長系統規劃與開發，分析並提升系統效能，在簡化開發流程，提升效率與產出品質方面有豐富的經驗。專注開發程式的效能與可維護性，精通多個系統與各種解決方案之間的整合，並且能夠獨立作業或帶領成員完成目標。習慣於面對困難並克服它們來促進業務發展。作為獨立貢獻者、導師、團隊合作者和領導者都有出色的表現。
@@ -58,15 +57,18 @@
   - 規劃並參與 TiDB、SQLProxy
   - 提供風控團隊 Redis 遷移方案，獨立完成 Elasticsearch 遷移。
   - 重新整合 settlement 的流程，提升 rollback 等相關流程的效能與管控
+  - 設計並實作 Multi-Redis 架構以解決單一 Redis Cluster 硬體層面的限制
+  - 重構系統底層，並允許在單一基礎設施層面支援複數個系統
 - 創新
   - 建立壓測執行方案，使用 gatling 與 arg workflow
   - 完成多數模組的 Sharding JDBC 遷移計畫
-  - 優化 booking code，提出可跨區域/品牌方案或更多附加價值功能
+  - 優化 booking code，提出可跨區域/品牌方案及提供更多附加價值功能
+  - 提出 any bet 概念，並以此探索更多市場機會
 #### Management
-- 自 2023 年 1 月升為 technical director
 - 自 2021 年 1 月升為 principal engineer
 - 自 2021 年 5 月擔任 backend team leader 
-- 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初到 2023 年流量成長 10 倍
+- 自 2023 年 1 月升為 technical director
+- 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初到 2024 年流量成長 20 倍
 - 管理後端團隊，管理台灣技術團隊
 - 團隊文化與策略管理
 #### SportyBet - International
