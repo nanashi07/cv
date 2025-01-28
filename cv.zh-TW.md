@@ -68,6 +68,7 @@
 - 自 2021 年 1 月升為 principal engineer
 - 自 2021 年 5 月擔任 backend team leader 
 - 自 2023 年 1 月升為 technical director
+- 自 2025 年 1 月升為 senior technical director
 - 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初到 2024 年流量成長 20 倍
 - 管理後端團隊，管理台灣技術團隊
 - 團隊文化與策略管理
