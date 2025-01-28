@@ -20,7 +20,7 @@ Familiar with development (majority focus on Java), system architect, solution i
 
 ## Work experience
 
-- Principal Engineer @**OpenNet** from *Jul 2019 - NOW*
+- Senior Technical Director @**OpenNet** from *Jul 2019 - NOW*
 - Engineer @**Silkrode  Technologies Co., Ltd.** from *Oct 2018 - Jul 2019*
 - Leader of Engineers @**Dingok** from *Feb 2018 - Oct 2018*
 - Engineer @**President Information Corporation** from *Jun 2017 - Dec 2017*
