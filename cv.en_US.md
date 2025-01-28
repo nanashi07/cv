@@ -69,6 +69,7 @@ Love self-learning technology skills, sensitive to the changes in the software i
 - Principal engineer since Jan 2021
 - Backend team leader since May 2021
 - Technical director since Jan 2023
+- Senior technical director since Jan 2025
 - Lead the Stability & Security team, ensured production environment is as robust and stable as possible. Traffic at the end of 2024 increased by 20 times from earlier in 2021.
 - Backend team and technical teams management
 - Team culture and strategy management
