@@ -82,10 +82,11 @@ A passionate self-learner, attuned to changes in the software industry, and regu
   - Implemented integrated log system (CloudWatch, rsyslog, Kafka, Loki).
   - Standardized and simplified Maven dependencies across services.
   - Split order modules to isolate transaction vs. query load for scalable performance.
-  - Replaced leader node mechanism with Raft for better scalability.
   - Contributed to TiDB/SQL Proxy POC planning and execution.
+  - Led Sharding JDBC migration for multiple modules to eliminate DB bottlenecks.
   - Proposed and executed Redis migration for the risk team to resolve big key issues.
   - Migrated Elasticsearch independently and flawlessly.
+  - Replaced leader node mechanism with Raft for better scalability.
   - Refactored settlement flow to prioritize resettlement and enhance performance.
   - Designed and implemented Multi-Redis architecture to bypass AWS constraints and reduce cluster impact.
   - Refactored system kernel to support multiple deployments on shared infrastructure, reducing cost and improving flexibility.
@@ -94,7 +95,6 @@ A passionate self-learner, attuned to changes in the software industry, and regu
 
   - Introduced tools like SonarQube, Webflux, gRPC, Drone, KEDA, Argo Workflow, Gatling.
   - Built load testing framework using Gatling + Argo Workflow.
-  - Led Sharding JDBC migration for multiple modules to eliminate DB bottlenecks.
   - Proposed and implemented a unified booking code system across regions, reducing costs by 70%.
   - Pitched "any-bet" concept, exploring broader market opportunities.
 
@@ -346,4 +346,3 @@ Both information management and Japanese language and literature
 - Github: https://github.com/prhythm, https://github.com/nanashi07
 - Web components: https://www.webcomponents.org/author/Prhythm
 - Chrome extensions: https://goo.gl/J62Khh
-
