@@ -1,112 +1,128 @@
-# Bruce Tsai - *Software Architect*
-
-![photo](https://github.com/nanashi07/cv/blob/master/bruce.jpg)
+# Bruce Tsai - _Software Architect_
 
 ## Summary
 
-Familiar with system design, software development, system analysis and performance tuning. Experienced in improving the efficiency of the development process and producing quality. Focus on performance issues and the maintainability of development. Highly skilled in integration between multiple systems with various solutions. Had used to face difficulties and overcome them to help business growth. Excellent performance as an independent contributor, mentor, team player and leader.
+Goal-driven management and 2× AI creative productivity. Proficient in system design, software development, system analysis, and performance tuning. Experienced in enhancing development efficiency and ensuring software quality. Focused on performance optimization and development maintainability. Highly skilled in system integration with diverse solutions. Accustomed to overcoming challenges and driving business growth. Performs excellently as an independent contributor, mentor, team player, and leader.
 
-The majority use Java and C# for development, and others use Python, Node.js, Go, Rust, etc. for assistance. Familiar with web-based systems and experienced with frameworks like Angular, Vue, Polymer, jQuery and so on. Familiar with persistence layers such as MySQL and SQL Server; familiar with NO-SQL/cache such as Redis; familiar with asyncrhonized process flow using queue systems such as RocketMQ and RabbitMQ; familiar with integration with cloud services such as AWS and Azure.
+Primarily uses Java and C# for development; additionally proficient with Python, Node.js, Go, Rust, and more. Familiar with web-based systems and frameworks such as Angular, Vue, Polymer, and jQuery. Experienced with persistence layers like MySQL and SQL Server; also familiar with NoSQL/caching solutions like Redis. Knowledgeable in asynchronous process flows using message queues like RocketMQ and RabbitMQ, and in integrating cloud services such as AWS and Azure.
 
-Beside development, be familiar with infrastructure such as Kubernetes, Linux, Nginx, ELK, SonarQube, docker, etc. Experienced with the cloud services such as AWS and Azure.
+Beyond development, experienced with infrastructure technologies including Kubernetes, Linux, Nginx, ELK, SonarQube, Docker, and more. Well-versed in cloud services including AWS and Azure.
 
-Love self-learning technology skills, sensitive to the changes in the software industry, used to learn from the daily news. Love to develop interesting side-project on my personal time.
+A passionate self-learner, attuned to changes in the software industry, and regularly follows industry news. Enjoys building interesting side projects during personal time.
 
+---
 
-## Work experience
+## Work Experience
 
-### Principal engineer @*OpenNet*
+### Principal Engineer @ _OpenNet_
 
-> Jul 2019 - NOW
+> Jul 2019 – Present
 
-#### SportyBet
-- Feature implementation
-  - Fixed issue of third-party library, hacked library for system requirement
-  - Configured and implemented Redis R/W access, balanced loading in production. Migrated high-loaded Redis to cluster mode
-  - Implemented tax logic, including withholding tax and excise tax
-  - Optimized MTS process with multi-thread, integrated with sync-to-async conversion in order flow
-  - Implemented KYC, ensure user experience in deposit/withdraw and avoid fraud from users
-  - Implemented DoB promotion, provided trusted info for KYC
-  - Implemented finance flow, added new mechanism of deposit in core logic flow (PAC Account)
-  - Implemented a supporter feature, allowed verified users to transfer money to another user (P2P transfer)
-  - Designed and implemented a log analysis service for mobile devices
-  - Designed and integrated all modules into the CMS
-  - Fix bugs and vulnerabilities scanned by SonarQube.
-- Performance
-  - Solved and optimized performance issues on a huge number of settlement messages at the same time
-  - Optimized settlement flow, decreased load on the database, decreased unnecessary or duplicate computing
-  - SQL performance tuning for all modules, based on the monitor from DBA or metrics
-  - Optimized message push service, decreased push delay and increased scalability of service
-  - Optimized memory cache usage, created metrics for caches for performance tuning
-  - Enhanced Jaeger APM, provided more information on tracing performance issues.
-  - Added various metrics, made system status and abnormalities clear. Fix issues before damage is encountered.
-  - Solved the cache issue caused by full GC, tuned JVM arguments and migrated parallel GC to G1 GC
-  - Measured and analyzed the performance of order service, made the metrics more clear, and made improvement depend on them.
-  - Analyzed the API performance of the SMS module, improved incorrect collection usage, and solved parallel issues.
-  - Analyzed OOM, high CPU and network issues
-  - Improved test performance, including code performance and environment performance (MySql)
-- Architecture
-  - Assist database migration, from Cetus to AWS RDS by rewriting and optimizing parts of queries
-  - Split the payment service into user oriental and third-party oriental services, prevent them from affecting each other
-  - Helped with new country environment deployment and troubleshooting relevant issues
-  - Upgrade services from Spring Boot 1.6 to 2.3
-  - Optimized resource configuration in Kubernetes, analysis issues on production
-  - Log system integration solution implementation (cloudwatch, rsyslog, kafka, loki)
-  - Continuous code refactoring
-  - Optimized maven dependency for all modules
-  - Split the order module to avoid traffic and transactions interrupted by query performance issues.
-  - Planned and participated in TiDB, SQL Proxy POC
-  - Provided a Redis migrate solution for the risk team. Completed the Elasticsearch migration independently.
-  - Refactored and integrated settlement flow, made related flow controllable, and improved performance.
-  - Design and implement Multi-Redis architecture to resolve the resolve the infrastructure limitation to single Redis cluster.
-  - Refactor the system kernal, allow multiple systems deploy on single infrastructure
-- Innovation
-  - Built load test solution with Gatling and Argo workflow
-  - Designed and implemented Sharding JDBC migration on multiple modules
-  - Proposed optimized booking code solution, allows unified code across regions and provides more business value
-  - Proposed the concept of any-bet, exploring more market opportunities
+#### Development, Performance, and Stability
+
+- **Feature Implementation and Delivery**
+
+  - Developed tax logic including withholding and excise tax.
+  - Optimized MTS process using multithreading and sync-to-async conversion within the order flow.
+  - Implemented KYC, enhancing user experience in deposit/withdrawal and mitigating fraud.
+  - Delivered DoB promotion to provide trusted data for KYC.
+  - Built finance flows and integrated a new deposit mechanism (PAC Account) into the core logic.
+  - Created P2P transfer feature for verified users.
+  - Designed and implemented a mobile device log analysis service.
+  - Integrated all modules into the CMS.
+  - Fixed bugs and vulnerabilities flagged by SonarQube.
+  - Supported deployments for new country environments and resolved related issues.
+  - Developed email-based registration supporting multiple countries, languages, and currencies.
+  - Designed dynamic, flexible KYC system.
+
+  - **Games**
+
+    - Migrated Sporty Soccer from RabbitMQ to RocketMQ.
+    - Launched Sporty-Fantasy:
+
+      - Led system planning and architecture design.
+      - Developed multi-country, multi-user contest game.
+      - Integrated with third-party APIs.
+
+  - **Sporty.com**
+
+    - Designed and developed seven modules for a sports media app (news, video, chat, sharing, social features).
+    - Integrated with third-party APIs.
+
+- **Performance**
+
+  - Resolved issues in third-party libraries and enhanced tracing capability.
+  - Configured Redis read/write access for load balancing; migrated Redis to cluster mode.
+  - Optimized settlement flow and reduced unnecessary computation and DB load.
+  - Conducted SQL performance tuning across modules using DBA metrics.
+  - Improved message push service latency and scalability by a middle queue layer.
+  - Enhanced memory cache performance and introduced performance metrics.
+  - Improved Jaeger APM instrumentation for better trace analysis.
+  - Added metrics to clarify system status and detect abnormalities proactively.
+  - Resolved cache issues from full GC; optimized JVM settings (migrated from Parallel GC to G1 GC).
+  - Measured and improved order service performance using metrics.
+  - Tuned SMS module APIs for collection usage and parallelism.
+  - Diagnosed and resolved OOM, high CPU, and network bottlenecks.
+  - Enhanced testing performance (code and MySQL) by ~50%.
+
+- **Stability**
+
+  - Proactively traced production issues to prevent user impact.
+  - Handled production incidents while maintaining 99.99% SLA.
+  - Provided architectural assistance across regions.
+
+#### Architecture & Innovation
+
+- **Architecture**
+
+  - Led database migration from Cetus to AWS RDS with optimized queries.
+  - Split payment services to isolate use cases and prevent cross-impact.
+  - Upgraded Spring Boot from 1.6 to 2.3 and aligned codebase across modules.
+  - Tuned Kubernetes resource allocation based on production analysis.
+  - Implemented integrated log system (CloudWatch, rsyslog, Kafka, Loki).
+  - Standardized and simplified Maven dependencies across services.
+  - Split order modules to isolate transaction vs. query load for scalable performance.
+  - Replaced leader node mechanism with Raft for better scalability.
+  - Contributed to TiDB/SQL Proxy POC planning and execution.
+  - Proposed and executed Redis migration for the risk team to resolve big key issues.
+  - Migrated Elasticsearch independently and flawlessly.
+  - Refactored settlement flow to prioritize resettlement and enhance performance.
+  - Designed and implemented Multi-Redis architecture to bypass AWS constraints and reduce cluster impact.
+  - Refactored system kernel to support multiple deployments on shared infrastructure, reducing cost and improving flexibility.
+
+- **Innovation**
+
+  - Introduced tools like SonarQube, Webflux, gRPC, Drone, KEDA, Argo Workflow, Gatling.
+  - Built load testing framework using Gatling + Argo Workflow.
+  - Led Sharding JDBC migration for multiple modules to eliminate DB bottlenecks.
+  - Proposed and implemented a unified booking code system across regions, reducing costs by 70%.
+  - Pitched "any-bet" concept, exploring broader market opportunities.
+
 #### Management
-- Principal engineer since Jan 2021
-- Backend team leader since May 2021
-- Technical director since Jan 2023
-- Senior technical director since Jan 2025
-- Lead the Stability & Security team, ensured production environment is as robust and stable as possible. Traffic at the end of 2024 increased by 20 times from earlier in 2021.
-- Backend team and technical teams management
-- Team culture and strategy management
-#### SportyBet - International
-- Designed and implemented email-based registration, multiple countries, multiple languages, and multiple currencies supported
-- Designed and implemented dynamic, flexible KYC
-#### Games
-- Migrate RabbitMQ to RocketMQ for Sporty Soccer
-- Kickoff Sporty-Fantasy
-  - System planning and architecture design
-  - Multi-country, multi-user contest game
-  - Communicated and integrated with third-party APIs
-  - 80% of total code implementation
-#### Sporty.com
-- Kickoff Sporty.com
-  - System planning and architecture design, totaling 7 modules
-  - As a sports media app, include news, video, chat, sharing, and social features
-  - Communicated and integrated with third-party APIs
-  - 75% of total code implementation
+
+- Promoted to:
+
+  - Principal Engineer (Jan 2021)
+  - Backend Team Lead (May 2021)
+  - Technical Director (Jan 2023)
+  - Senior Technical Director (Jan 2025)
+
+- Led the Stability & Security team to ensure maximum production robustness; traffic grew 20× from 2021 to 2024.
+- Managed over 150 engineers across Asia, India, Europe, and America.
+- Focused on goal-driven team culture and strategy.
+
 #### Other
-- Production issue trace: find the issue in the first place and fix it immediately before users are affected
-- Production incidents handling
-- Introduced solutions, such as SonarQube, Webflux, gRPC, drone, KEDA, Argo workflow, Gatling
-- Assist architecture design cross teams in other regions
 
-##### Tags
+**Tags**: `SportyBet`, `Fantasy`, `Sporty.com` | `Java`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Redis`, `Elasticsearch`, `Kubernetes`, `AWS`, `Drone`, `gRPC`, `Reactive`, `Jaeger`, `Prometheus`
 
-`SportyBet`, `Fantasy`, `Sporty.com` | `Java`, `Spring Boot`, `MySQL`, `Cetus`, `RocketMQ`, `RabbitMQ`, `Reids`, `ElasticSearch`, `Kubernetes`, `AWS`, `drone`, `gRPC`, `Reactive`, `Jaeger(opentracing)`, `Prometheus`
+**Links**:
 
-##### Links
+- [sportybet.com](https://sportybet.com)
+- [sporty.com](https://sporty.com)
 
-* https://sportybet.com
-* https://sporty.com
+---
 
-------------------------------------------------------------------------
-
-### Engineer @*Silkrode  Technologies Co., Ltd.*
+### Engineer @_Silkrode Technologies Co., Ltd._
 
 > Oct 2018 - Jul 2019
 
@@ -117,11 +133,11 @@ Love self-learning technology skills, sensitive to the changes in the software i
 - Evaluated and planned architecture of production on GCP and Azure cloud
 - Built production with Kubernetes(GKE), Helm and other related solutions
 - Verification of the technical solutions includes:
-  * Performance of the logging library (Nlog / Serilog / Log4net)
-  * Redis client / server solution (StackExchange / ServiceStack / CsRedis / Cluster / Sentinel / Codis)
-  * Performance of JSON serialization  (Newtonsoft / Jil / Utf8Json)
-  * Availability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
-  * Asynchronized process performance. (Queue / HangFire / Polly)
+  - Performance of the logging library (Nlog / Serilog / Log4net)
+  - Redis client / server solution (StackExchange / ServiceStack / CsRedis / Cluster / Sentinel / Codis)
+  - Performance of JSON serialization (Newtonsoft / Jil / Utf8Json)
+  - Availability and performance of MySQL (MGR) and its alternatives (Galera/XtraDB) on cloud services.
+  - Asynchronized process performance. (Queue / HangFire / Polly)
 - Intranet environment planning and construction.
 - Management of the cloud environment.
 - CI/CD planning and implementation
@@ -131,9 +147,9 @@ Love self-learning technology skills, sensitive to the changes in the software i
 
 `Trade`, `Profit` | `C#`, `.Net Core`, `Percona`, `Docker`, `Kubernetes`, `Redis`, `RabbitMQ`, `CentOS`, `Gitlab-CI`, `SonarQube`, `Graylog`, `ELK`, `MongoDB`, `GCP`, `Azure`, `Architect`, `Helm`, `HAProxy`
 
-------------------------------------------------------------------------
+---
 
-### Leader of Engineers @*Dingok*
+### Leader of Engineers @_Dingok_
 
 > Feb 2018 - Oct 2018
 
@@ -157,15 +173,15 @@ Love self-learning technology skills, sensitive to the changes in the software i
 
 ##### Links
 
-* https://dingok.com (deprecated)
+- https://dingok.com (deprecated)
 
-------------------------------------------------------------------------
+---
 
-### Engineer @*President Information Corporation*
+### Engineer @_President Information Corporation_
 
 > Jun 2017 - Dec 2017
 
-- Developed a submodule of the vendor collaborative management system (VCMS). 
+- Developed a submodule of the vendor collaborative management system (VCMS).
 - Upgraded Vendor2G from .NET 1.1 by crystal report.
 - Refactored the usage of source control and created guidelines for development flow.
 - Provided CI/Jenkins solutions to build and archive binaries.
@@ -176,11 +192,11 @@ Love self-learning technology skills, sensitive to the changes in the software i
 
 ##### Links
 
-* https://7-11vcms.pcsc.com.tw
+- https://7-11vcms.pcsc.com.tw
 
-------------------------------------------------------------------------
+---
 
-### Senior Technical Consultant @*HY-Tech*
+### Senior Technical Consultant @_HY-Tech_
 
 > Dec 2014 - May 2017
 
@@ -200,12 +216,12 @@ Love self-learning technology skills, sensitive to the changes in the software i
 
 ##### Links
 
-* http://ecare.fetnet.net/eServiceV3/
-* http://ndrs.arcoa.com.tw/NDRS
+- http://ecare.fetnet.net/eServiceV3/
+- http://ndrs.arcoa.com.tw/NDRS
 
-------------------------------------------------------------------------
+---
 
-### Senior Software Engineer @*Trend Micro*
+### Senior Software Engineer @_Trend Micro_
 
 > Nov 2012 - Oct 2014
 
@@ -217,9 +233,9 @@ Love self-learning technology skills, sensitive to the changes in the software i
 
 `ishare`, `ishare 2.0`, `ishare 3.0`, `Legal Contract Management system`, `Calendar Synchronization`, `BIF - Report information frontend`, `APAC Sales Kick-off`, `Quarterly IS Awards`, `The circle`, `Olympic 25th` | `Sharepoint`, `C#`, `jQuery`, `Android`
 
-------------------------------------------------------------------------
+---
 
-### MIS Deputy Supervisor @*GrandTech Systems Ltd*
+### MIS Deputy Supervisor @_GrandTech Systems Ltd_
 
 > Feb 2012 - Oct 2012
 
@@ -227,15 +243,15 @@ Love self-learning technology skills, sensitive to the changes in the software i
 - Develop CRM, attendance, repair service, and customer service for departments of AI
 - Maintain the EIP of GrandTech and AI
 - Network and server maintenance
-- MIS supports GI (GrandTech Information) and  TI (TopTeam Information)
+- MIS supports GI (GrandTech Information) and TI (TopTeam Information)
 - Develop and maintain ETL and reports from SAP and EIP, and perform performance tuning for execution.
 - Routine jobs and maintenance of SAP
 - Source control reconstruction
 - Daily jobs of the MIS department
 
-------------------------------------------------------------------------
+---
 
-### Senior Engineer @*CHAUN-CHOUNG TECHNOLOGY CORP.*
+### Senior Engineer @_CHAUN-CHOUNG TECHNOLOGY CORP._
 
 > May 2010 - Feb 2012
 
@@ -247,9 +263,9 @@ Love self-learning technology skills, sensitive to the changes in the software i
 - Support the general application process for RD.
 - Support network and hardware maintenance
 
-------------------------------------------------------------------------
+---
 
-### Engineer @*Chunghwa Telecom (MyEgov & GSP Operation Center)*
+### Engineer @_Chunghwa Telecom (MyEgov & GSP Operation Center)_
 
 > Jul 2008 - May 2010
 
@@ -258,9 +274,9 @@ Love self-learning technology skills, sensitive to the changes in the software i
 - Develop and maintain a data exchange interface and function
 - Customize Worksite MP as KMS
 
-------------------------------------------------------------------------
+---
 
-### Engineer @*GENESIS INFORMATION INC.*
+### Engineer @_GENESIS INFORMATION INC._
 
 > Feb 2007 - Jun 2008
 
@@ -274,7 +290,6 @@ Love self-learning technology skills, sensitive to the changes in the software i
 > 1998 - 2004
 
 Both information management and Japanese language and literature
-
 
 ## Skills
 
@@ -302,7 +317,7 @@ Both information management and Japanese language and literature
 
 `RabbitMQ`, `Kafka`, `RocketMQ`
 
-### SCM 
+### SCM
 
 `Git`, `SVN`, `Team Foundation Server`
 
@@ -314,11 +329,11 @@ Both information management and Japanese language and literature
 
 `Virtualbox`, `Hyper-V`, `Docker`, `KVM`, `Promox`
 
-### Mobile 
+### Mobile
 
 `Android (Native)`
 
-### Design 
+### Design
 
 `System architect`, `System integration`, `Documentation`, `System analysis`
 
@@ -328,7 +343,7 @@ Both information management and Japanese language and literature
 
 ## Personal Links
 
-* Blog: https://nanashi07.blogspot.tw/
-* Github: https://github.com/prhythm, https://github.com/nanashi07
-* Web components: https://www.webcomponents.org/author/Prhythm
-* Chrome extensions: https://goo.gl/J62Khh
+- Github: https://github.com/prhythm, https://github.com/nanashi07
+- Web components: https://www.webcomponents.org/author/Prhythm
+- Chrome extensions: https://goo.gl/J62Khh
+
