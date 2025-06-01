@@ -82,10 +82,11 @@
   - 實作整合式日誌系統（CloudWatch、rsyslog、Kafka、Loki）。
   - 標準化與簡化所有服務的 Maven 相依性。
   - 拆分訂單模組以分離交易與查詢負載，提升可擴展性。
-  - 將 leader node 機制改為 Raft 以提升擴展性。
   - 協助 TiDB／SQL Proxy POC 規劃與執行。
+  - 主導多模組 Sharding JDBC 遷移以排除資料庫瓶頸。
   - 提議並推動 Redis 遷移以解決風控團隊的 big key 問題。
   - 獨立完成 Elasticsearch 遷移，表現無瑕。
+  - 將 leader node 機制改為 Raft 以提升擴展性。
   - 重構結算流程以優先處理補結算並提升效能。
   - 設計並實作 Multi-Redis 架構，突破 AWS 限制並降低叢集影響。
   - 重構系統核心以支援共用基礎架構上的多重部署，降低成本並提升彈性。
@@ -94,7 +95,6 @@
 
   - 導入 SonarQube、Webflux、gRPC、Drone、KEDA、Argo Workflow、Gatling 等工具。
   - 使用 Gatling + Argo Workflow 建立壓力測試框架。
-  - 主導多模組 Sharding JDBC 遷移以排除資料庫瓶頸。
   - 提案並實作跨區域統一的 booking code 系統，降低 70% 成本。
   - 提出「any-bet」概念，探索更廣泛的市場機會。
 
