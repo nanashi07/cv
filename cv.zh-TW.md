@@ -1,98 +1,115 @@
-# Bruce Tsai - *軟體架構師*
+# Bruce Tsai - _軟體架構師_
 
-![photo](https://github.com/nanashi07/cv/blob/master/bruce.jpg)
-## 概要
+## 摘要
 
-擅長系統規劃與開發，分析並提升系統效能，在簡化開發流程，提升效率與產出品質方面有豐富的經驗。專注開發程式的效能與可維護性，精通多個系統與各種解決方案之間的整合，並且能夠獨立作業或帶領成員完成目標。習慣於面對困難並克服它們來促進業務發展。作為獨立貢獻者、導師、團隊合作者和領導者都有出色的表現。
+以目標導向管理與 2 倍 AI 創意生產力為核心。精通系統設計、軟體開發、系統分析與效能調校，擁有提升開發效率與確保軟體品質的豐富經驗。專注於效能最佳化與開發維護性。擅長整合多種解決方案的系統整合，習慣迎接挑戰並推動業務成長。在獨立貢獻、指導、團隊合作與領導方面均有卓越表現。
 
-主要使用語言為 Java 及 C# 進行開發，並以 Python / node.js / go / rust 等為輔助開發工具。熟悉但不限定於 Web 相關的系統，了解前端框架 Angular，Vue，Polymer，jQuery 等。熟悉 MySQL, SQL Server 等持久層。熟悉 Redis 等 NO-SQL/快取。熟悉使用 RocketMQ 和 RabbitMQ 等佇列系統的非同步流程。熟悉與 AWS 和 Azure 等雲端服務的整合。
+主要使用 Java 與 C# 進行開發；同時熟悉 Python、Node.js、Go、Rust 等語言。熟悉基於網頁的系統與框架，例如 Angular、Vue、Polymer、jQuery。具備使用 MySQL 與 SQL Server 的經驗；亦熟悉 Redis 等 NoSQL／快取解決方案。了解使用 RocketMQ 與 RabbitMQ 等訊息佇列的非同步流程，並熟悉整合 AWS、Azure 等雲端服務。
 
-除了開發之外，還熟悉 Kubernetes、Linux、Nginx、ELK、SonarQube、docker 等基礎架構。熟悉 AWS、Azure 等雲端服務。
+除了開發外，亦具備 Kubernetes、Linux、Nginx、ELK、SonarQube、Docker 等基礎設施技術經驗。精通 AWS 與 Azure 雲端服務。
 
-熱愛自學技術技能，對軟體產業的變化敏感，習慣從日常新聞中學習。喜歡利用個人時間開發有趣的業餘項目。
+為一熱愛自學者，緊貼軟體產業的變化，定期關注業界動態。閒暇時間喜歡開發有趣的個人專案。
 
+---
 
-## 經歷
+## 工作經驗
 
-### 技術總監 @*OpenNet*
+### 首席工程師 @ _OpenNet_
 
-> 七月 2019 - NOW
+> 2019 年 7 月 – 至今
 
-#### SportyBet
-- 功能實作
-  - 修正第三方函式庫臭蟲。覆寫第三方函式庫功能。
-  - 實作 Redis 讀寫分離機制，平衡生產環境的負載。遷移高負載的 Redis 為叢集模式
-  - 實作稅務處理，包含預扣稅與消費稅
-  - 優化 MTS 處理流程，以多執行緒並行提高效能，並整合進同步轉非同步訂單流程
-  - 實作 KYC 驗證流程，在保證儲值與提款的流暢體驗下防止詐騙與盗號
-  - 實作 DoB 驗證與 promotion，以提供後續客戶 KYC 驗證資訊
-  - 實作帳務流程，控制儲值/提款的底層邏輯 (PAC Account)
-  - 實作用戶轉帳功能，允許通過驗證的用戶互相轉帳 (P2P transfer)
-  - 設計日誌收集分析系統（analytics），供行動裝置回報分析
-  - 設計並建構後端各模組與 CMS 系統整合
-  - 修正 SonarQube 分析的 bug 與漏洞
-- 效能優化
-  - 解決並優化系統處理大量結算時的負載問題（settlement)
-  - 優化比賽結算，分流不同優先級的資料，降低資料庫面的負擔，並減少不必要的冗餘運算
-  - 各模組 SQL 效能調校，優化 DBA 監控提供的效能問題
-  - 優化賽事資訊推送功能，減少延遲並提升推送服務的可擴展性
-  - 優化各模組的 cache 使用，建立對應的指標以觀察 cache 的效能
-  - 強化 Jaeger APM 的追蹤內容，改善效能追蹤時可提供的資訊
-  - 設計多項監控指標，用以了解系統狀態，並快速反應異常
-  - 解決程式造成的 GC 問題，調校 JVM 並改用 G1 GC 替代原本的 Parallel GC
-  - 量測並分析 order 效能，細化指標後依據指標優化 order
-  - 分析 SMS 模組 API 效能，優化改進，(Collection contains, parallel issue)
-  - 分析 OOM、高 cpu、網路問題原因，並針對問題改善
-  - 提升測試效能，包含啟動速度，環境執行速度（MySQL）
-- 系統架構
-  - 資料庫遷移，由 cetus 遷移至 AWS RDS，調整遷移時前後的查詢問題
-  - 分離金流模組入口，拆分為用戶端入口與第三方入口，避免相互影響
-  - 協助建立新國家部署，排除建置問題
-  - 升級各模組 Spring Boot 1.6 至 2.3
-  - 優化 Kubernetes 各類配置，並分析 kubernetes 的問題
-  - Log system 整合方案 (cloudwatch, rsyslog, kafka, loki)
-  - 持續重構各模組程式碼
-  - 優化各模組的 maven dependency
-  - 分離訂單模組，避免因流量或 bug 造成訂單問題。
-  - 規劃並參與 TiDB、SQLProxy
-  - 提供風控團隊 Redis 遷移方案，獨立完成 Elasticsearch 遷移。
-  - 重新整合 settlement 的流程，提升 rollback 等相關流程的效能與管控
-  - 設計並實作 Multi-Redis 架構以解決單一 Redis Cluster 硬體層面的限制
-  - 重構系統底層，並允許在單一基礎設施層面支援複數個系統
-- 創新
-  - 建立壓測執行方案，使用 gatling 與 arg workflow
-  - 完成多數模組的 Sharding JDBC 遷移計畫
-  - 優化 booking code，提出可跨區域/品牌方案及提供更多附加價值功能
-  - 提出 any bet 概念，並以此探索更多市場機會
-#### Management
-- 自 2021 年 1 月升為 principal engineer
-- 自 2021 年 5 月擔任 backend team leader 
-- 自 2023 年 1 月升為 technical director
-- 自 2025 年 1 月升為 senior technical director
-- 領導 Stability & Security 團隊，確保線上環境穩定，並自 2021 年初到 2024 年流量成長 20 倍
-- 管理後端團隊，管理台灣技術團隊
-- 團隊文化與策略管理
-#### SportyBet - International
-- 開發以 email 為基礎的註冊流程，支援多國家，多語言，多幣別會員
-- 設計彈性動態的 KYC 功能
-#### Games
-- 遷移 Sporty Soccer  RabbitMQ 至 RocketMQ
-- 啟動 Sporty Fantasy 專案
-  - 系統整體規劃與設計
-  - 多國、多人競合遊戲
-  - 第三方 API 溝通與串接
-  - 80% 的後端程式碼實作
-#### Sporty.com
-- 啟動 Sporty.com 專案
-  - 系統整體規劃與設計，共 7 個模組
-  - 定位為運動類型多媒體，包含新聞、影片、聊天、分享、社交等功能
-  - 第三方 API 溝通與串接
-  - 75% 的後端程式碼實作
-#### Other
-- 系統異常追蹤，主動發現問題並在造成影響前修復或降低影響
-- 線上環境緊急災難應變
-- 引入多項技術，包含 SonarQube、Webflux、gRPC、drone、KEDA, argo workflow, gatling
-- 協助其它區域團隊改善系統架構
+#### 開發、效能與穩定性
+
+- **功能實作與交付**
+
+  - 開發稅務邏輯，包括預扣稅與消費稅。
+  - 透過多執行緒與同步轉非同步優化訂單流程的 MTS 處理。
+  - 實作 KYC 功能，提升存提款用戶體驗並降低詐欺風險。
+  - 推出 DoB 推廣活動，提供可信資料以支援 KYC。
+  - 建立財務流程並整合新存款機制（PAC 帳戶）至核心邏輯中。
+  - 為驗證用戶打造 P2P 轉帳功能。
+  - 設計並實作行動裝置日誌分析服務。
+  - 將所有模組整合至 CMS。
+  - 修復 SonarQube 掃描出的錯誤與漏洞。
+  - 支援新國家環境部署並解決相關問題。
+  - 開發支援多國、多語系與多幣別的電子郵件註冊功能。
+  - 設計動態且具彈性的 KYC 系統。
+
+  - **遊戲相關**
+
+    - 將 Sporty Soccer 從 RabbitMQ 遷移至 RocketMQ。
+    - 推出 Sporty-Fantasy：
+
+      - 主導系統規劃與架構設計。
+      - 開發支援多國、多用戶的競賽型遊戲。
+      - 整合第三方 API。
+
+  - **Sporty.com**
+
+    - 設計與開發七個體育媒體應用模組（新聞、影片、聊天室、分享、社交功能等）。
+    - 整合第三方 API。
+
+- **效能**
+
+  - 修復第三方函式庫問題並強化追蹤能力。
+  - 配置 Redis 讀寫分離以達成負載平衡；將 Redis 遷移至叢集模式。
+  - 優化結算流程，減少不必要計算與資料庫負載。
+  - 使用 DBA 指標調整多模組的 SQL 效能。
+  - 透過中介佇列層改善訊息推送服務的延遲與擴展性。
+  - 強化記憶體快取效能，並導入效能指標。
+  - 改進 Jaeger APM 標示方式以提升追蹤分析。
+  - 增加指標以釐清系統狀態並主動偵測異常。
+  - 解決快取因 Full GC 而導致的問題；優化 JVM 設定（從 Parallel GC 遷移至 G1 GC）。
+  - 使用指標測量與提升訂單服務效能。
+  - 優化 SMS 模組 API 的集合使用與平行處理。
+  - 診斷並解決 OOM、高 CPU 與網路瓶頸等問題。
+  - 測試（代碼與 MySQL）效能提升約 50%。
+
+- **穩定性**
+
+  - 主動追蹤生產問題，防止用戶受影響。
+  - 處理生產事故並維持 99.99% SLA。
+  - 提供跨區域架構支援。
+
+#### 架構與創新
+
+- **架構**
+
+  - 主導資料庫從 Cetus 遷移至 AWS RDS，並優化查詢。
+  - 拆分付款服務以隔離使用場景，避免交叉影響。
+  - 將 Spring Boot 從 1.6 升級至 2.3，統一模組代碼。
+  - 根據生產分析調整 Kubernetes 資源分配。
+  - 實作整合式日誌系統（CloudWatch、rsyslog、Kafka、Loki）。
+  - 標準化與簡化所有服務的 Maven 相依性。
+  - 拆分訂單模組以分離交易與查詢負載，提升可擴展性。
+  - 將 leader node 機制改為 Raft 以提升擴展性。
+  - 協助 TiDB／SQL Proxy POC 規劃與執行。
+  - 提議並推動 Redis 遷移以解決風控團隊的 big key 問題。
+  - 獨立完成 Elasticsearch 遷移，表現無瑕。
+  - 重構結算流程以優先處理補結算並提升效能。
+  - 設計並實作 Multi-Redis 架構，突破 AWS 限制並降低叢集影響。
+  - 重構系統核心以支援共用基礎架構上的多重部署，降低成本並提升彈性。
+
+- **創新**
+
+  - 導入 SonarQube、Webflux、gRPC、Drone、KEDA、Argo Workflow、Gatling 等工具。
+  - 使用 Gatling + Argo Workflow 建立壓力測試框架。
+  - 主導多模組 Sharding JDBC 遷移以排除資料庫瓶頸。
+  - 提案並實作跨區域統一的 booking code 系統，降低 70% 成本。
+  - 提出「any-bet」概念，探索更廣泛的市場機會。
+
+#### 管理
+
+- 晉升歷程：
+
+  - 首席工程師（2021 年 1 月）
+  - 後端團隊主管（2021 年 5 月）
+  - 技術總監（2023 年 1 月）
+  - 高級技術總監（2025 年 1 月）
+
+- 領導穩定性與安全性團隊，確保生產環境穩定性；流量自 2021 至 2024 年增長 20 倍。
+- 管理超過 150 位來自亞洲、印度、歐洲與美洲的工程師。
+- 專注於以目標導向的團隊文化與策略推動。
 
 ##### Tags
 
@@ -100,12 +117,12 @@
 
 ##### Links
 
-* https://sportybet.com
-* https://sporty.com
+- https://sportybet.com
+- https://sporty.com
 
-------------------------------------------------------------------------
+---
 
-### 工程師 @*思華科技*
+### 工程師 @_思華科技_
 
 > 十月 2018 - 七月 2019
 
@@ -116,11 +133,11 @@
 - 評估並規劃 GCP、Azure 上的生產環境架構
 - 以 Kubernetes (GKE) 與 helm 等相關方案建置生產環境
 - 驗證技術方案與執行效能，如：
-  * 驗證日誌套件的效能 (Nlog / Serilog / Log4net)
-  * 驗證 redis client / server 方案 (StackExchange / ServiceStack / CsRedis / Cluster / Sentinel / Codis)
-  * JSON 序列化效能 (Newtonsoft / Jil / Utf8Json)
-  * 驗證 MySQL(MGR) 及其替代方案(Galera/XtraDB)在雲端服務上的可用性與效能
-  * 非同步流程方案效能 (Queue / HangFire / Polly)
+  - 驗證日誌套件的效能 (Nlog / Serilog / Log4net)
+  - 驗證 redis client / server 方案 (StackExchange / ServiceStack / CsRedis / Cluster / Sentinel / Codis)
+  - JSON 序列化效能 (Newtonsoft / Jil / Utf8Json)
+  - 驗證 MySQL(MGR) 及其替代方案(Galera/XtraDB)在雲端服務上的可用性與效能
+  - 非同步流程方案效能 (Queue / HangFire / Polly)
 - 地端環境規劃建置
 - 雲端環境管理規劃
 - CI/CD 規劃建置
@@ -130,9 +147,9 @@
 
 `Trade`, `Profit` | `C#`, `.Net Core`, `Percona`, `Docker`, `Kubernetes`, `Redis`, `RabbitMQ`, `CentOS`, `Gitlab-CI`, `SonarQube`, `Graylog`, `ELK`, `MongoDB`, `GCP`, `Azure`, `Architect`, `Helm`, `HAProxy`
 
-------------------------------------------------------------------------
+---
 
-### 工程部組長 @*一訂科技*
+### 工程部組長 @_一訂科技_
 
 > 二月 2018 - 十月 2018
 
@@ -141,10 +158,10 @@
 - 導入 CI／CD (Gitlab)，簡化開發流程
 - 導入 SonarQube 程式碼分析，提升程式碼品質
 - 導入 Protobuf 處理異質系統的序列化問題
-- 修正系統架構(原monolithic)，以 4-layer/3-tier 規劃開發架構，並以 REST API 提供對外接口重整各系統的功能架構
+- 修正系統架構(原 monolithic)，以 4-layer/3-tier 規劃開發架構，並以 REST API 提供對外接口重整各系統的功能架構
 - 導入 .NET Core 2.0，並設計交易處理模式
 - 要求單元／整合測試自動化，降低測試成本與提高系統品質
-- 於一個月內完成配位系統（鎖位系統）POC，具有高承載能力，高可擴展性，能在瞬間大量使用者進入時仍保持運作正常 
+- 於一個月內完成配位系統（鎖位系統）POC，具有高承載能力，高可擴展性，能在瞬間大量使用者進入時仍保持運作正常
 - 導入容器服務用於處理分散式叢集服務
 - 導入 ELK 日誌分析，處理系統監控與使用行為統計等
 - 以自行設計的配位系統替換外包商的鎖位服務，並要求外包商退還數百萬設計費用
@@ -157,11 +174,11 @@
 
 ##### Links
 
-* https://dingok.com (deprecated)
+- https://dingok.com (deprecated)
 
-------------------------------------------------------------------------
+---
 
-### 軟體工程師 @*統一資訊*
+### 軟體工程師 @_統一資訊_
 
 > 六月 2017 - 十二月 2017
 
@@ -176,11 +193,11 @@
 
 ##### Links
 
-* https://7-11vcms.pcsc.com.tw
+- https://7-11vcms.pcsc.com.tw
 
-------------------------------------------------------------------------
+---
 
-### 資深技術顧問 @*鴻揚科技股份有限公司*
+### 資深技術顧問 @_鴻揚科技股份有限公司_
 
 > 十二月 2014 - 五月 2017
 
@@ -200,12 +217,12 @@
 
 ##### Links
 
-* http://ecare.fetnet.net/eServiceV3/
-* http://ndrs.arcoa.com.tw/NDRS
+- http://ecare.fetnet.net/eServiceV3/
+- http://ndrs.arcoa.com.tw/NDRS
 
-------------------------------------------------------------------------
+---
 
-### 資深軟體工程師 @*趨勢科技*
+### 資深軟體工程師 @_趨勢科技_
 
 > 十一月 2012 - 十月 2014
 
@@ -217,9 +234,9 @@
 
 `ishare`, `ishare 2.0`, `ishare 3.0`, `Legal Contract Management system`, `Calendar Synchronization`, `BIF - Report information frontend`, `APAC Sales Kick-off`, `Quarterly IS Awards`, `The circle`, `Olympic 25th` | `Sharepoint`, `C#`, `jQuery`, `Android`
 
-------------------------------------------------------------------------
+---
 
-### 資訊部副主任 @*上奇科技股份有限公司*
+### 資訊部副主任 @_上奇科技股份有限公司_
 
 > 二月 2012 - 十月 2012
 
@@ -233,9 +250,9 @@
 - 原始碼整理控管
 - 其它 MIS 日常事務處理
 
-------------------------------------------------------------------------
+---
 
-### 高級工程師 @*超眾科技*
+### 高級工程師 @_超眾科技_
 
 > 五月 2010 - 二月 2012
 
@@ -246,9 +263,9 @@
 - 支援 RD 研發時與 MIS 相關的作業流程
 - 支援硬體與網路相關的故障維護
 
-------------------------------------------------------------------------
+---
 
-### 軟體工程師 @*中華電信政網處*
+### 軟體工程師 @_中華電信政網處_
 
 > 七月 2008 - 五月 2010
 
@@ -256,9 +273,9 @@
 - 開發電子化政府與外部系統相關的介接程式
 - 以 Worksite MP 開發 KMS 系統
 
-------------------------------------------------------------------------
+---
 
-### 軟體工程師 @*創世紀資訊*
+### 軟體工程師 @_創世紀資訊_
 
 > 二月 2007 - 六月 2008
 
@@ -325,7 +342,6 @@
 
 ## 個人活動
 
-* Blog: https://nanashi07.blogspot.tw/
-* Github: https://github.com/prhythm, https://github.com/nanashi07
-* Web components: https://www.webcomponents.org/author/Prhythm
-* Chrome extensions: https://goo.gl/J62Khh
+- Github: https://github.com/prhythm, https://github.com/nanashi07
+- Web components: https://www.webcomponents.org/author/Prhythm
+- Chrome extensions: https://goo.gl/J62Khh
