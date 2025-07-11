@@ -108,7 +108,7 @@ A passionate self-learner, attuned to changes in the software industry, and regu
   - Senior Technical Director (Jan 2025)
 
 - Led the Stability & Security team to ensure maximum production robustness; traffic grew 20× from 2021 to 2024.
-- Managed over 150 engineers across Asia, India, Europe, and America.
+- Managed over 150 engineers across Taiwan, India, Europe, and Brazil.
 - Focused on goal-driven team culture and strategy.
 
 #### Other
