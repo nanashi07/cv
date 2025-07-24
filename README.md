@@ -14,19 +14,19 @@ Beyond development, experienced with infrastructure technologies including Kuber
 
 A passionate self-learner, attuned to changes in the software industry, and regularly follows industry news. Enjoys building interesting side projects during personal time.
 
-### Keywords
+### Skills
 
-- `.NET`, `Java`, `Rust`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
--  `Angular`, `Vue`, `jQuery`, `Polymer`, `LitElement`
-- `Linux`, `shell`
-- `AWS`, `Azure`, `GCP`
-- `MySQL`, `SQL-Server`, `Oracle`, `PostgreSQL`, `Cetus`
-- `Redis`, `MongoDB`
-- `RocketMQ`, `RabbitMQ`, `Kafka`
-- `Git`, `Subversion`
-- `Gitlab-CI`, `Jenkins`, `SonarQube`, `drone`, `Argo workflow`
-- `Docker`, `Kubernetes`
-- `Android native`
+- Language: `Java`, `.NET`, `Rust`, `Kotlin`, `JS/TS`, `node.js`, `Python`, `Go`
+- UX: `LitElement`, `Vue`, `Angular`, `jQuery`, `Polymer`
+- OS: `Linux`, `shell`
+- Cloud: `AWS`, `Azure`, `GCP`
+- Database: `MySQL`, `SQL-Server`, `Oracle`, `PostgreSQL`, `Cetus`
+- NoSQL: `Redis`, `MongoDB`
+- Queue: `RocketMQ`, `RabbitMQ`, `Kafka`
+- VC: `Git`, `Subversion`
+- CI/CD `Gitlab-CI`, `Jenkins`, `SonarQube`, `drone`, `Argo workflow`
+- Container: `Docker`, `Kubernetes`
+- Mobile: `Android native`
 
 ## Work experience
 
