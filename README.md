@@ -1,8 +1,12 @@
 # Bruce Tsai
 
+## Status
+
+Open to global remote opportunities.
+
 ## Technical skills
 
-Familiar with development (majority focus on Java), system architect, solution integration, demand analysis, environment construction include cloud, performance improvement, technical training
+Goal-driven management and 2× AI creative productivity. Proficient in system design, software development, system analysis, and performance tuning. Experienced in enhancing development efficiency and ensuring software quality. Focused on performance optimization and development maintainability. Highly skilled in system integration with diverse solutions. Accustomed to overcoming challenges and driving business growth. Performs excellently as an independent contributor, mentor, team player, and leader.
 
 ### Keywords
 
