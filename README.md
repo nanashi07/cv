@@ -2,7 +2,7 @@
 
 ## Status
 
-Open to global remote opportunities; based in Japan and Taiwan.
+Open to global remote opportunities; based in Japan or Taiwan.
 
 ## Professional Summary
 
