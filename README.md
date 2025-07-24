@@ -8,6 +8,12 @@ Open to global remote opportunities.
 
 Goal-driven management and 2× AI creative productivity. Proficient in system design, software development, system analysis, and performance tuning. Experienced in enhancing development efficiency and ensuring software quality. Focused on performance optimization and development maintainability. Highly skilled in system integration with diverse solutions. Accustomed to overcoming challenges and driving business growth. Performs excellently as an independent contributor, mentor, team player, and leader.
 
+Primarily uses Java and C# for development; additionally proficient with Python, Node.js, Go, Rust, and more. Familiar with web-based systems and frameworks such as Angular, Vue, Lit-element, and jQuery. Experienced with persistence layers like MySQL and SQL Server; also familiar with NoSQL/caching solutions like Redis. Knowledgeable in asynchronous process flows using message queues like RocketMQ and RabbitMQ, and in integrating cloud services such as AWS and Azure.
+
+Beyond development, experienced with infrastructure technologies including Kubernetes, Linux, Nginx, ELK, SonarQube, Docker, and more. Well-versed in cloud services including AWS and Azure.
+
+A passionate self-learner, attuned to changes in the software industry, and regularly follows industry news. Enjoys building interesting side projects during personal time.
+
 ### Keywords
 
 - `.NET`, `Java`, `Rust`, `Javascript`, `Kotlin`, `Python`, `Go`, `node.js`
