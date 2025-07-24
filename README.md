@@ -24,7 +24,7 @@ Goal-driven management and 2× AI creative productivity. Proficient in system de
 
 ## Work experience
 
-- Senior Technical Director @**OpenNet** from *Jul 2019 - NOW*
+- Senior Technical Director @**OpenNet** from *Jul 2019 - Present*
 - Engineer @**Silkrode  Technologies Co., Ltd.** from *Oct 2018 - Jul 2019*
 - Leader of Engineers @**Dingok** from *Feb 2018 - Oct 2018*
 - Engineer @**President Information Corporation** from *Jun 2017 - Dec 2017*
