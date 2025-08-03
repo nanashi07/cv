@@ -122,7 +122,7 @@ A passionate self-learner, attuned to changes in the software industry, and regu
 
 ---
 
-### Engineer @_Silkrode Technologies Co., Ltd._
+### Engineering Lead @_Silkrode Technologies Co., Ltd._
 
 > Oct 2018 - Jul 2019
 
@@ -149,7 +149,7 @@ A passionate self-learner, attuned to changes in the software industry, and regu
 
 ---
 
-### Leader of Engineers @_Dingok_
+### Engineering Lead @_Dingok_
 
 > Feb 2018 - Oct 2018
 

@@ -31,8 +31,8 @@ A passionate self-learner, attuned to changes in the software industry, and regu
 ## Work experience
 
 - Senior Technical Director @**OpenNet** from *Jul 2019 - Present*
-- Engineer @**Silkrode  Technologies Co., Ltd.** from *Oct 2018 - Jul 2019*
-- Leader of Engineers @**Dingok** from *Feb 2018 - Oct 2018*
+- Engineering Lead @**Silkrode  Technologies Co., Ltd.** from *Oct 2018 - Jul 2019*
+- Engineering Lead @**Dingok** from *Feb 2018 - Oct 2018*
 - Engineer @**President Information Corporation** from *Jun 2017 - Dec 2017*
 - Senior Technical Consultant @**HY-Tech** from *Dec 2014 - May 2017*
 - Senior Software Engineer @**Trend Micro** from *Nov 2012 - Oct 2014*

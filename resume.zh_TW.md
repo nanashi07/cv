@@ -31,8 +31,8 @@
 ## 工作經歷
 
 * **OpenNet**，資深技術總監（2019 年 7 月至今）
-* **Silkrode Technologies Co., Ltd.**，工程師（2018 年 10 月至 2019 年 7 月）
-* **Dingok**，工程團隊主管（2018 年 2 月至 2018 年 10 月）
+* **Silkrode Technologies Co., Ltd.**，工程部主管（2018 年 10 月至 2019 年 7 月）
+* **Dingok**，工程部主管（2018 年 2 月至 2018 年 10 月）
 * **President Information Corporation**，工程師（2017 年 6 月至 2017 年 12 月）
 * **HY-Tech**，資深技術顧問（2014 年 12 月至 2017 年 5 月）
 * **Trend Micro**，資深軟體工程師（2012 年 11 月至 2014 年 10 月）
